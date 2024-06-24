@@ -1,0 +1,23 @@
+1718633699747:run
+1718633707966:test
+1718633718697:compile
+1718725069632:exit
+1718725121842:submit bastientchinianga@gmail.com QvmE2Qvde9Rlpff6
+1718725147680:submit bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718725153941:exit
+1718725220532:submit bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718725263273:submit : bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718725270913:exit
+1718725327317:run
+1718725556291:exit
+1718797850878:submit : bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718797862483:submit bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718799177197:jps -v | grep sbt-launch | cut -f1 -d ' ' | xargs kill -9
+1718799228363:submit bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718799236518:exit
+1718799279702:reload
+1718799459352:exit
+1718799487155:submit bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718799492630:reload
+1718799498277:submit bastientchinianga@gmail.com BaI8UEumeeA9kdS3
+1718799502227:exit

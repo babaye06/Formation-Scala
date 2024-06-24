@@ -1,0 +1,5 @@
+[error] -- [E008] Not Found Error: /home/btchinianga/linux_workspace/Formation_scala/democracy2/democracy/src/main/scala/democracy/SomeTests.scala:18:16 
+[error] 18 |  candidateRate.di
+[error]    |  ^^^^^^^^^^^^^^^^
+[error]    |value di is not a member of Map[democracy.Candidate, Seq[democracy.Grade]]
+[error] one error found

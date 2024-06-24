@@ -1,0 +1,1571 @@
+2024.06.19 13:46:23 INFO  Started: Metals version 1.3.1+87-dc572a5d-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@475f395]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@261a6914]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@475f395]
+2024.06.19 13:46:24 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.19 13:46:24 INFO  restarted 0 presentation compilers[0m
+2024.06.19 13:46:26 INFO  running '/home/btchinianga/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.19 13:46:27 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/todo2/project/metals.sbt[0m
+2024.06.19 13:46:27 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 13:46:28 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)[0m
+2024.06.19 13:46:30 INFO  [info] loading settings for project todo2-build-build-build from metals.sbt ...[0m
+2024.06.19 13:46:30 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/project[0m
+2024.06.19 13:46:32 INFO  [info] loading settings for project todo2-build-build from metals.sbt ...[0m
+2024.06.19 13:46:32 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project[0m
+2024.06.19 13:46:33 INFO  [success] Generated .bloop/todo2-build-build.json[0m
+2024.06.19 13:46:33 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 1:46:33 PM[0m
+2024.06.19 13:46:35 INFO  [info] loading settings for project todo2-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2024.06.19 13:46:35 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project[0m
+2024.06.19 13:46:35 INFO  [success] Generated .bloop/todo2-build.json[0m
+2024.06.19 13:46:36 INFO  [info] compiling 3 Scala sources to /home/btchinianga/linux_workspace/Formation_scala/todo2/project/target/scala-2.12/sbt-1.0/classes ...[0m
+2024.06.19 13:46:36 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/assignment.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 13:46:36 WARN  Could not find semantic tokens for: file:///home/btchinianga/linux_workspace/Formation_scala/todo2/assignment.sbt[0m
+2024.06.19 13:46:40 INFO  [info] done compiling[0m
+2024.06.19 13:46:40 INFO  [success] Total time: 6 s, completed Jun 19, 2024, 1:46:41 PM[0m
+2024.06.19 13:46:42 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/assignment.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 13:46:42 INFO  [info] loading settings for project todo2 from assignment.sbt,build.sbt ...[0m
+2024.06.19 13:46:42 INFO  [info] set current project to effective-scala-todo (in build file:/home/btchinianga/linux_workspace/Formation_scala/todo2/)[0m
+2024.06.19 13:46:45 INFO  [success] Generated .bloop/todo2-test.json[0m
+2024.06.19 13:46:45 INFO  [success] Generated .bloop/todo2.json[0m
+2024.06.19 13:46:45 INFO  [success] Total time: 3 s, completed Jun 19, 2024, 1:46:45 PM[0m
+2024.06.19 13:46:45 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+2024.06.19 13:46:46 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:46:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:46:47 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:46:47 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:46:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:46:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:46:48 INFO  time: Connected to build server in 2.56s[0m
+2024.06.19 13:46:48 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 13:46:48 INFO  time: Imported build in 0.15s[0m
+2024.06.19 13:46:48 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.19 13:46:59 INFO  time: indexed workspace in 10s[0m
+2024.06.19 13:46:59 INFO  compiling todo2-build (3 scala sources)[0m
+2024.06.19 13:46:59 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.17. Compiling...[0m
+2024.06.19 13:47:07 INFO  Compilation completed in 7.223s.[0m
+2024.06.19 13:47:13 INFO  time: compiled todo2-build in 13s[0m
+2024.06.19 13:47:22 INFO  running '/home/btchinianga/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.19 13:47:23 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)[0m
+2024.06.19 13:47:23 INFO  [info] loading settings for project todo2-build-build-build from metals.sbt ...[0m
+2024.06.19 13:47:24 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/project[0m
+2024.06.19 13:47:24 INFO  [info] loading settings for project todo2-build-build from metals.sbt ...[0m
+2024.06.19 13:47:24 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project[0m
+2024.06.19 13:47:26 INFO  [success] Generated .bloop/todo2-build-build.json[0m
+2024.06.19 13:47:26 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 1:47:26 PM[0m
+2024.06.19 13:47:26 INFO  [info] loading settings for project todo2-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2024.06.19 13:47:26 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project[0m
+2024.06.19 13:47:26 INFO  [success] Generated .bloop/todo2-build.json[0m
+2024.06.19 13:47:28 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 1:47:27 PM[0m
+2024.06.19 13:47:30 INFO  [info] loading settings for project todo2 from assignment.sbt,build.sbt ...[0m
+2024.06.19 13:47:30 INFO  [info] set current project to effective-scala-todo (in build file:/home/btchinianga/linux_workspace/Formation_scala/todo2/)[0m
+2024.06.19 13:47:31 INFO  [success] Generated .bloop/todo2.json[0m
+2024.06.19 13:47:31 INFO  [success] Generated .bloop/todo2-test.json[0m
+2024.06.19 13:47:31 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 1:47:31 PM[0m
+2024.06.19 13:47:32 INFO  time: ran 'sbt bloopInstall' in 9.66s[0m
+2024.06.19 13:47:32 INFO  Disconnecting from Bloop session...[0m
+2024.06.19 13:47:32 INFO  Shut down connection with build server.[0m
+2024.06.19 13:47:32 INFO  Shut down connection with build server.[0m
+2024.06.19 13:47:32 INFO  Shut down connection with build server.[0m
+2024.06.19 13:47:32 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:47:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:47:32 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:47:32 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:47:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:47:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:47:32 INFO  time: Connected to build server in 79ms[0m
+2024.06.19 13:47:32 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 13:47:34 INFO  time: indexed workspace in 1.71s[0m
+2024.06.19 13:47:40 INFO  compiling todo2 (15 scala sources)[0m
+2024.06.19 13:47:47 INFO  time: compiled todo2 in 6.71s[0m
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Jun 19, 2024 1:48:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 175
+2024.06.19 13:49:38 INFO  Shutting down server[0m
+2024.06.19 13:49:38 INFO  shutting down Metals[0m
+2024.06.19 13:49:38 INFO  Shut down connection with build server.[0m
+2024.06.19 13:49:38 INFO  Shut down connection with build server.[0m
+2024.06.19 13:49:38 INFO  Shut down connection with build server.[0m
+2024.06.19 13:49:38 INFO  Exiting server[0m
+2024.06.19 13:55:10 INFO  Started: Metals version 1.3.1+87-dc572a5d-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@f90325e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@623e458d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@f90325e]
+2024.06.19 13:55:10 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.19 13:55:11 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:55:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:55:11 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:55:11 INFO  Attempting to connect to the build server...[0m
+2024.06.19 13:55:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:55:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 13:55:11 INFO  time: Connected to build server in 0.37s[0m
+2024.06.19 13:55:11 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 13:55:12 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/PersistentModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 13:55:15 INFO  time: indexed workspace in 2.29s[0m
+2024.06.19 13:55:15 INFO  compiling todo2-test (3 scala sources)[0m
+2024.06.19 13:55:16 INFO  time: compiled todo2-test in 1.42s[0m
+2024.06.19 14:04:15 INFO  time: code lens generation in 2.09s[0m
+Jun 19, 2024 2:04:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+2024.06.19 14:12:21 INFO  compiling todo2-build (3 scala sources)[0m
+2024.06.19 14:12:24 INFO  time: compiled todo2-build in 2.85s[0m
+2024.06.19 14:12:27 INFO  Shutting down server[0m
+2024.06.19 14:12:27 INFO  shutting down Metals[0m
+2024.06.19 14:12:27 INFO  Shut down connection with build server.[0m
+2024.06.19 14:12:27 INFO  Shut down connection with build server.[0m
+2024.06.19 14:12:27 INFO  Shut down connection with build server.[0m
+2024.06.19 14:12:27 INFO  Exiting server[0m
+2024.06.19 14:20:35 INFO  Started: Metals version 1.3.1+87-dc572a5d-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@331a924f]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@474620c4]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@331a924f]
+2024.06.19 14:20:35 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.19 14:20:36 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:20:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:20:36 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:20:36 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:20:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:20:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:20:37 INFO  time: Connected to build server in 0.43s[0m
+2024.06.19 14:20:37 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 14:20:37 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/PersistentModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 14:20:40 INFO  time: indexed workspace in 2.51s[0m
+2024.06.19 14:42:02 INFO  time: code lens generation in 3.21s[0m
+2024.06.19 14:44:52 INFO  running '/home/btchinianga/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.19 14:44:53 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)[0m
+2024.06.19 14:44:53 INFO  [info] loading settings for project todo2-build-build-build from metals.sbt ...[0m
+2024.06.19 14:44:54 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/project[0m
+2024.06.19 14:44:54 INFO  [info] loading settings for project todo2-build-build from metals.sbt ...[0m
+2024.06.19 14:44:54 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project[0m
+2024.06.19 14:44:56 INFO  [success] Generated .bloop/todo2-build-build.json[0m
+2024.06.19 14:44:56 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 2:44:56 PM[0m
+2024.06.19 14:44:56 INFO  [info] loading settings for project todo2-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2024.06.19 14:44:56 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project[0m
+2024.06.19 14:44:56 INFO  [success] Generated .bloop/todo2-build.json[0m
+2024.06.19 14:44:57 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 2:44:57 PM[0m
+2024.06.19 14:44:57 INFO  [info] loading settings for project todo2 from assignment.sbt,build.sbt ...[0m
+2024.06.19 14:44:57 INFO  [info] set current project to effective-scala-todo (in build file:/home/btchinianga/linux_workspace/Formation_scala/todo2/)[0m
+2024.06.19 14:44:59 INFO  [success] Generated .bloop/todo2.json[0m
+2024.06.19 14:44:59 INFO  [success] Generated .bloop/todo2-test.json[0m
+2024.06.19 14:44:59 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 2:44:59 PM[0m
+2024.06.19 14:45:00 INFO  time: ran 'sbt bloopInstall' in 8.12s[0m
+2024.06.19 14:45:00 INFO  Disconnecting from Bloop session...[0m
+2024.06.19 14:45:00 INFO  Shut down connection with build server.[0m
+2024.06.19 14:45:00 INFO  Shut down connection with build server.[0m
+2024.06.19 14:45:00 INFO  Shut down connection with build server.[0m
+2024.06.19 14:45:00 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:45:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:45:00 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:45:00 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:45:00 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 14:45:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:45:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:45:00 INFO  time: Connected to build server in 0.12s[0m
+2024.06.19 14:45:00 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 14:45:02 INFO  time: indexed workspace in 1.66s[0m
+Jun 19, 2024 2:46:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 133
+Jun 19, 2024 3:02:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+2024.06.19 15:14:54 INFO  Deduplicating compilation of todo2-build from bsp client 'Metals 1.3.1+87-dc572a5d-SNAPSHOT' (since 29m 53.687s)[0m
+2024.06.19 15:14:54 INFO  compiling todo2 (15 scala sources)[0m
+2024.06.19 15:14:57 INFO  time: compiled todo2 in 3.1s[0m
+2024.06.19 15:15:03 INFO  running '/home/btchinianga/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.19 15:15:05 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)[0m
+Jun 19, 2024 3:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 349
+2024.06.19 15:15:05 INFO  [info] loading settings for project todo2-build-build-build from metals.sbt ...[0m
+2024.06.19 15:15:06 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/project[0m
+2024.06.19 15:15:06 INFO  [info] loading settings for project todo2-build-build from metals.sbt ...[0m
+2024.06.19 15:15:06 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project[0m
+2024.06.19 15:15:09 INFO  [success] Generated .bloop/todo2-build-build.json[0m
+2024.06.19 15:15:09 INFO  [success] Total time: 2 s, completed Jun 19, 2024, 3:15:09 PM[0m
+2024.06.19 15:15:09 INFO  [info] loading settings for project todo2-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2024.06.19 15:15:09 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project[0m
+2024.06.19 15:15:09 INFO  [success] Generated .bloop/todo2-build.json[0m
+2024.06.19 15:15:10 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 3:15:10 PM[0m
+2024.06.19 15:15:13 INFO  [info] loading settings for project todo2 from assignment.sbt,build.sbt ...[0m
+2024.06.19 15:15:13 INFO  [info] set current project to effective-scala-todo (in build file:/home/btchinianga/linux_workspace/Formation_scala/todo2/)[0m
+2024.06.19 15:15:14 INFO  [success] Generated .bloop/todo2-test.json[0m
+2024.06.19 15:15:14 INFO  [success] Generated .bloop/todo2.json[0m
+2024.06.19 15:15:14 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 3:15:14 PM[0m
+2024.06.19 15:15:15 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+2024.06.19 15:15:15 INFO  Disconnecting from Bloop session...[0m
+2024.06.19 15:15:15 INFO  Shut down connection with build server.[0m
+2024.06.19 15:15:15 INFO  Shut down connection with build server.[0m
+2024.06.19 15:15:15 INFO  Shut down connection with build server.[0m
+2024.06.19 15:15:15 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:15:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:15:15 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:15:15 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:15:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:15:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:15:15 INFO  time: Connected to build server in 65ms[0m
+2024.06.19 15:15:15 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 15:15:15 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.19 15:15:16 INFO  time: indexed workspace in 1.61s[0m
+Jun 19, 2024 3:17:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 387
+Jun 19, 2024 3:36:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 487
+Jun 19, 2024 3:36:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 506
+Jun 19, 2024 3:36:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 517
+2024.06.19 15:37:53 INFO  Disconnecting from Bloop session...[0m
+2024.06.19 15:37:53 INFO  Shut down connection with build server.[0m
+2024.06.19 15:37:53 INFO  Shut down connection with build server.[0m
+2024.06.19 15:37:53 INFO  Shut down connection with build server.[0m
+Jun 19, 2024 3:37:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalStateException: Build server unavailable
+java.util.concurrent.CompletionException: java.lang.IllegalStateException: Build server unavailable
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.IllegalStateException: Build server unavailable
+	at scala.meta.internal.metals.debug.DebugProvider.BuildServerUnavailableError$lzycompute(DebugProvider.scala:944)
+	at scala.meta.internal.metals.debug.DebugProvider.BuildServerUnavailableError(DebugProvider.scala:943)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$3(DebugProvider.scala:136)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$start$2(DebugProvider.scala:137)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2024.06.19 15:37:53 INFO  Deleted directories inside .bloop[0m
+2024.06.19 15:37:53 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:37:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:37:55 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:37:55 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:37:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:37:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:37:56 INFO  time: Connected to build server in 2.79s[0m
+2024.06.19 15:37:56 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 15:37:55 INFO  time: Imported build in 0.14s[0m
+2024.06.19 15:37:58 INFO  time: indexed workspace in 1.38s[0m
+2024.06.19 15:38:18 INFO  running '/home/btchinianga/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.19 15:38:19 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)[0m
+2024.06.19 15:38:19 INFO  [info] loading settings for project todo2-build-build-build from metals.sbt ...[0m
+2024.06.19 15:38:20 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/project[0m
+2024.06.19 15:38:20 INFO  [info] loading settings for project todo2-build-build from metals.sbt ...[0m
+2024.06.19 15:38:20 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project[0m
+2024.06.19 15:38:22 INFO  [success] Generated .bloop/todo2-build-build.json[0m
+2024.06.19 15:38:22 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 3:38:22 PM[0m
+2024.06.19 15:38:22 INFO  [info] loading settings for project todo2-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2024.06.19 15:38:22 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project[0m
+2024.06.19 15:38:22 INFO  [success] Generated .bloop/todo2-build.json[0m
+2024.06.19 15:38:23 INFO  [success] Total time: 1 s, completed Jun 19, 2024, 3:38:23 PM[0m
+2024.06.19 15:38:23 INFO  [info] loading settings for project todo2 from assignment.sbt,build.sbt ...[0m
+2024.06.19 15:38:23 INFO  [info] set current project to effective-scala-todo (in build file:/home/btchinianga/linux_workspace/Formation_scala/todo2/)[0m
+2024.06.19 15:38:23 INFO  [success] Generated .bloop/todo2-test.json[0m
+2024.06.19 15:38:23 INFO  [success] Generated .bloop/todo2.json[0m
+2024.06.19 15:38:23 INFO  [success] Total time: 0 s, completed Jun 19, 2024, 3:38:24 PM[0m
+2024.06.19 15:38:24 INFO  time: ran 'sbt bloopInstall' in 6.77s[0m
+2024.06.19 15:38:24 INFO  Disconnecting from Bloop session...[0m
+2024.06.19 15:38:24 INFO  Shut down connection with build server.[0m
+2024.06.19 15:38:24 INFO  Shut down connection with build server.[0m
+2024.06.19 15:38:24 INFO  Shut down connection with build server.[0m
+2024.06.19 15:38:24 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:38:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:38:24 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:38:24 INFO  Attempting to connect to the build server...[0m
+2024.06.19 15:38:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:38:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 15:38:24 INFO  time: Connected to build server in 0.13s[0m
+2024.06.19 15:38:24 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 15:38:26 INFO  time: indexed workspace in 1.36s[0m
+2024.06.19 15:43:58 INFO  compiling todo2 (15 scala sources)[0m
+2024.06.19 15:44:04 INFO  compiling todo2-test (3 scala sources)[0m
+2024.06.19 15:44:04 INFO  time: compiled todo2 in 6.28s[0m
+2024.06.19 15:44:06 INFO  time: compiled todo2-test in 1.18s[0m
+2024.06.19 15:44:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.19 15:44:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.19 15:44:06 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.19 15:44:07 INFO  Initialized Scala 3 decoder in 4 milliseconds[0m
+2024.06.19 15:44:07 INFO  Trying to attach to remote debuggee VM localhost:49495 .[0m
+2024.06.19 15:44:07 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.19 15:44:08 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.19 15:44:08 INFO  Closing debug server tcp://0.0.0.0:35137[0m
+Jun 19, 2024 3:51:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 786
+Jun 19, 2024 3:52:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 824
+Jun 19, 2024 3:53:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 878
+Jun 19, 2024 3:53:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 886
+Jun 19, 2024 4:03:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 982
+Jun 19, 2024 4:05:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1078
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1164
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1156
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1157
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1158
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1159
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1160
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1161
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1162
+Jun 19, 2024 4:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1163
+Jun 19, 2024 4:13:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1288
+Jun 19, 2024 4:13:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1311
+Jun 19, 2024 4:30:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1408
+Jun 19, 2024 4:39:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1680
+2024.06.19 16:40:01 ERROR Failed to tokenize input for semantic tokens for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/InMemoryModel.scala
+scala.meta.tokenizers.TokenizeException: <input>:39: error: Invalid literal number, followed by identifier character
+  def read(id: Id): 5Option[Task] =
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:774)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:796)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:811)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:326)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+Jun 19, 2024 4:40:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1812
+Jun 19, 2024 4:41:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1858
+Jun 19, 2024 4:51:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2183
+Jun 19, 2024 4:51:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2197
+Jun 19, 2024 4:52:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2369
+Jun 19, 2024 4:53:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2462
+2024.06.19 16:54:02 INFO  compiling todo2 (1 scala source)[0m
+2024.06.19 16:54:04 INFO  time: compiled todo2 in 1.73s[0m
+2024.06.19 16:55:44 INFO  compiling todo2 (1 scala source)[0m
+2024.06.19 16:55:44 INFO  time: compiled todo2 in 0.81s[0m
+2024.06.19 16:55:46 INFO  compiling todo2 (1 scala source)[0m
+2024.06.19 16:55:46 INFO  time: compiled todo2 in 0.67s[0m
+Jun 19, 2024 4:56:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2545
+Jun 19, 2024 4:57:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2615
+Jun 19, 2024 4:58:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2773
+Jun 19, 2024 4:58:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2804
+Jun 19, 2024 4:58:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2806
+Jun 19, 2024 5:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2884
+Jun 19, 2024 5:04:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2949
+Jun 19, 2024 5:04:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2950
+2024.06.19 17:10:02 INFO  Shutting down server[0m
+2024.06.19 17:10:02 INFO  shutting down Metals[0m
+2024.06.19 17:10:02 INFO  Shut down connection with build server.[0m
+2024.06.19 17:10:02 INFO  Shut down connection with build server.[0m
+2024.06.19 17:10:02 INFO  Shut down connection with build server.[0m
+2024.06.19 17:10:02 INFO  Exiting server[0m
+2024.06.20 11:52:07 INFO  Started: Metals version 1.3.1+87-dc572a5d-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@26456deb]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3d72572c]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@26456deb]
+2024.06.20 11:52:07 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.20 11:52:08 INFO  Attempting to connect to the build server...[0m
+2024.06.20 11:52:08 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/InMemoryModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.20 11:52:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 11:52:10 INFO  Attempting to connect to the build server...[0m
+2024.06.20 11:52:10 INFO  Attempting to connect to the build server...[0m
+2024.06.20 11:52:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 11:52:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 11:52:11 INFO  time: Connected to build server in 2.79s[0m
+2024.06.20 11:52:11 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.20 11:52:11 INFO  time: Imported build in 0.15s[0m
+2024.06.20 11:52:11 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.20 11:52:16 INFO  time: indexed workspace in 5.1s[0m
+Jun 20, 2024 11:53:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.06.20 13:32:13 INFO  Shutting down server[0m
+2024.06.20 13:32:13 INFO  shutting down Metals[0m
+2024.06.20 13:32:13 INFO  Shut down connection with build server.[0m
+2024.06.20 13:32:13 INFO  Shut down connection with build server.[0m
+2024.06.20 13:32:13 INFO  Shut down connection with build server.[0m
+2024.06.20 13:32:13 INFO  Exiting server[0m
+2024.06.20 13:32:42 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@62697f39]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@15f0f465]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@62697f39]
+2024.06.20 13:32:42 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.20 13:32:43 INFO  Attempting to connect to the build server...[0m
+Jun 20, 2024 1:32:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 20, 2024 1:32:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.06.20 13:32:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 13:32:46 INFO  Attempting to connect to the build server...[0m
+2024.06.20 13:32:46 INFO  Attempting to connect to the build server...[0m
+2024.06.20 13:32:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 13:32:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 13:32:46 INFO  time: Connected to build server in 2.79s[0m
+2024.06.20 13:32:46 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.20 13:32:46 INFO  time: Imported build in 0.18s[0m
+2024.06.20 13:32:46 INFO  running doctor check[0m
+2024.06.20 13:32:46 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.20 13:32:46 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.20 13:32:53 INFO  time: indexed workspace in 6.82s[0m
+Jun 20, 2024 1:50:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Jun 20, 2024 1:51:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+Jun 20, 2024 1:51:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+Jun 20, 2024 1:52:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 318
+2024.06.20 13:52:34 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 13:52:38 INFO  time: compiled todo2 in 4s[0m
+2024.06.20 13:52:52 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 13:52:53 INFO  time: compiled todo2 in 1.03s[0m
+Jun 20, 2024 1:58:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 387
+Jun 20, 2024 2:15:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 403
+Jun 20, 2024 2:15:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 421
+2024.06.20 14:15:34 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:15:35 INFO  time: compiled todo2 in 1.05s[0m
+2024.06.20 14:15:35 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:15:36 INFO  time: compiled todo2 in 0.69s[0m
+Jun 20, 2024 2:16:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 513
+2024.06.20 14:17:31 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:17:33 INFO  time: compiled todo2 in 1.27s[0m
+Jun 20, 2024 2:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 903
+Jun 20, 2024 2:19:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 976
+Jun 20, 2024 2:24:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1104
+Jun 20, 2024 2:24:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1105
+Jun 20, 2024 2:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1132
+2024.06.20 14:25:07 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:25:07 INFO  time: compiled todo2 in 0.61s[0m
+Jun 20, 2024 2:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1222
+Jun 20, 2024 2:31:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1284
+Jun 20, 2024 2:31:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1316
+Jun 20, 2024 2:32:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1355
+Jun 20, 2024 2:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1732
+Jun 20, 2024 2:37:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1783
+Jun 20, 2024 2:37:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1864
+2024.06.20 14:38:08 ERROR Failed to tokenize input for semantic tokens for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/InMemoryModel.scala
+scala.meta.tokenizers.TokenizeException: <input>:53: error: illegal character '\u00b2'
+²
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:443)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.20 14:43:16 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:43:16 INFO  time: compiled todo2 in 0.65s[0m
+Jun 20, 2024 2:45:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2260
+Jun 20, 2024 2:46:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2365
+Jun 20, 2024 2:47:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2430
+Jun 20, 2024 2:47:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2431
+Jun 20, 2024 2:48:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2479
+Jun 20, 2024 2:48:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2527
+Jun 20, 2024 2:49:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2653
+Jun 20, 2024 2:50:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2808
+2024.06.20 14:50:45 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:50:46 INFO  time: compiled todo2 in 1.28s[0m
+2024.06.20 14:52:05 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:52:05 INFO  time: compiled todo2 in 0.87s[0m
+2024.06.20 14:52:18 ERROR Failed to tokenize input for semantic tokens for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/InMemoryModel.scala
+scala.meta.tokenizers.TokenizeException: <input>:60: error: Invalid literal number, followed by identifier character
+    Tags(idStore.map(_.2tags)).toList
+                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:774)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionDone(LegacyScanner.scala:769)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionOnDot(LegacyScanner.scala:727)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:398)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.20 14:52:30 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:52:30 INFO  time: compiled todo2 in 0.79s[0m
+Jun 20, 2024 2:52:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3036
+2024.06.20 14:52:50 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:52:50 INFO  time: compiled todo2 in 0.61s[0m
+2024.06.20 14:52:50 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:52:52 INFO  time: compiled todo2 in 0.55s[0m
+Jun 20, 2024 2:53:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3094
+Jun 20, 2024 2:53:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3172
+Jun 20, 2024 2:54:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3229
+Jun 20, 2024 2:54:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3244
+2024.06.20 14:54:24 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:54:24 INFO  time: compiled todo2 in 0.49s[0m
+2024.06.20 14:55:01 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:55:01 INFO  time: compiled todo2 in 0.23s[0m
+2024.06.20 14:55:04 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:55:04 INFO  time: compiled todo2 in 0.49s[0m
+Jun 20, 2024 2:55:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3348
+Jun 20, 2024 2:56:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3397
+Jun 20, 2024 2:56:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3415
+2024.06.20 14:56:20 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 14:56:20 INFO  time: compiled todo2 in 0.43s[0m
+Jun 20, 2024 2:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3451
+Jun 20, 2024 2:58:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3483
+Jun 20, 2024 3:02:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3528
+Jun 20, 2024 3:02:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3554
+Jun 20, 2024 3:05:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3654
+Jun 20, 2024 3:05:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3717
+Jun 20, 2024 3:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4075
+2024.06.20 15:08:37 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 15:08:37 INFO  time: compiled todo2 in 0.56s[0m
+2024.06.20 15:08:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 15:08:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 15:08:56 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 15:08:56 INFO  Initialized Scala 3 decoder in 3 milliseconds[0m
+2024.06.20 15:08:56 INFO  Trying to attach to remote debuggee VM localhost:42077 .[0m
+2024.06.20 15:08:56 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 15:08:57 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 15:08:57 INFO  Closing debug server tcp://0.0.0.0:35661[0m
+Jun 20, 2024 3:10:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4192
+Jun 20, 2024 3:12:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4276
+2024.06.20 15:12:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 15:12:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 15:12:12 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 15:12:13 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.20 15:12:13 INFO  Trying to attach to remote debuggee VM localhost:34799 .[0m
+2024.06.20 15:12:13 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 15:12:13 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 15:12:13 INFO  Closing debug server tcp://0.0.0.0:35887[0m
+Jun 20, 2024 3:12:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4306
+2024.06.20 15:14:30 INFO  Shutting down server[0m
+2024.06.20 15:14:30 INFO  shutting down Metals[0m
+2024.06.20 15:14:30 INFO  Shut down connection with build server.[0m
+2024.06.20 15:14:30 INFO  Shut down connection with build server.[0m
+2024.06.20 15:14:30 INFO  Shut down connection with build server.[0m
+2024.06.20 15:14:30 INFO  Exiting server[0m
+2024.06.20 15:14:49 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@169a48bc]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2f625cc7]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@169a48bc]
+2024.06.20 15:14:49 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.20 15:14:50 INFO  Attempting to connect to the build server...[0m
+2024.06.20 15:14:50 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/test/scala/todo/TodoSuite.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.20 15:14:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 15:14:52 INFO  Attempting to connect to the build server...[0m
+2024.06.20 15:14:52 INFO  Attempting to connect to the build server...[0m
+2024.06.20 15:14:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 15:14:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 15:14:53 INFO  time: Connected to build server in 2.96s[0m
+2024.06.20 15:14:53 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.20 15:14:53 INFO  time: Imported build in 0.15s[0m
+2024.06.20 15:14:53 INFO  running doctor check[0m
+2024.06.20 15:14:53 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.20 15:14:53 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.20 15:14:56 INFO  time: indexed workspace in 2.6s[0m
+Jun 20, 2024 3:21:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+Jun 20, 2024 3:22:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 157
+2024.06.20 15:23:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 15:23:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 15:23:05 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 15:23:06 INFO  Initialized Scala 3 decoder in 11 milliseconds[0m
+2024.06.20 15:23:06 INFO  Trying to attach to remote debuggee VM localhost:54939 .[0m
+2024.06.20 15:23:06 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 15:23:07 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 15:23:07 INFO  Closing debug server tcp://0.0.0.0:41351[0m
+Jun 20, 2024 3:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 211
+Jun 20, 2024 3:23:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 227
+Jun 20, 2024 3:23:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+2024.06.20 15:25:27 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 15:25:31 INFO  time: compiled todo2 in 3.6s[0m
+Jun 20, 2024 3:27:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 406
+Jun 20, 2024 3:29:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 431
+2024.06.20 15:29:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 15:29:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 15:29:05 INFO  Starting debug proxy for [todo.IdGeneratorSuite()][0m
+2024.06.20 15:29:05 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.20 15:29:05 INFO  Trying to attach to remote debuggee VM localhost:42871 .[0m
+2024.06.20 15:29:05 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 15:29:06 INFO  Canceling debug proxy for [todo.IdGeneratorSuite()][0m
+2024.06.20 15:29:05 INFO  Closing debug server tcp://0.0.0.0:39747[0m
+Jun 20, 2024 3:29:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 438
+Jun 20, 2024 3:29:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 461
+2024.06.20 15:29:56 INFO  Shutting down server[0m
+2024.06.20 15:29:56 INFO  shutting down Metals[0m
+2024.06.20 15:29:56 INFO  Shut down connection with build server.[0m
+2024.06.20 15:29:56 INFO  Shut down connection with build server.[0m
+2024.06.20 15:29:56 INFO  Shut down connection with build server.[0m
+2024.06.20 15:29:56 INFO  Exiting server[0m
+2024.06.20 15:30:04 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@57278748]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@62697f39]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@57278748]
+2024.06.20 15:30:04 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.20 15:30:04 INFO  Attempting to connect to the build server...[0m
+2024.06.20 15:30:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 15:30:04 INFO  Attempting to connect to the build server...[0m
+2024.06.20 15:30:04 INFO  Attempting to connect to the build server...[0m
+2024.06.20 15:30:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 15:30:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.20 15:30:05 INFO  time: Connected to build server in 0.34s[0m
+2024.06.20 15:30:05 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.20 15:30:05 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/test/scala/todo/TodoSuite.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.20 15:30:05 INFO  running doctor check[0m
+2024.06.20 15:30:05 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.20 15:30:05 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.20 15:30:08 INFO  time: indexed workspace in 2.8s[0m
+Jun 20, 2024 3:30:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Jun 20, 2024 3:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+Jun 20, 2024 3:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 252
+Jun 20, 2024 3:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 358
+Jun 20, 2024 3:37:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 458
+Jun 20, 2024 3:37:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 477
+2024.06.20 15:39:21 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 15:39:21 INFO  time: compiled todo2 in 0.96s[0m
+2024.06.20 15:40:39 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 15:40:40 INFO  time: compiled todo2 in 1.28s[0m
+2024.06.20 15:41:01 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 15:41:01 INFO  time: compiled todo2 in 0.6s[0m
+Jun 20, 2024 3:42:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 824
+Jun 20, 2024 3:42:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 838
+Jun 20, 2024 3:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 906
+Jun 20, 2024 3:51:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 996
+Jun 20, 2024 3:51:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1004
+Jun 20, 2024 3:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1035
+Jun 20, 2024 3:58:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1401
+Jun 20, 2024 3:58:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1410
+Jun 20, 2024 4:00:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1527
+Jun 20, 2024 4:00:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1543
+2024.06.20 16:02:09 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:02:09 INFO  time: compiled todo2 in 0.67s[0m
+Jun 20, 2024 4:02:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1756
+2024.06.20 16:03:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 16:03:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 16:03:26 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 16:03:26 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.20 16:03:26 INFO  Trying to attach to remote debuggee VM localhost:43109 .[0m
+2024.06.20 16:03:26 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 16:03:27 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 16:03:27 INFO  Closing debug server tcp://0.0.0.0:45969[0m
+Jun 20, 2024 4:04:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1831
+Jun 20, 2024 4:11:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1851
+Jun 20, 2024 4:11:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1875
+Jun 20, 2024 4:15:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2061
+Jun 20, 2024 4:21:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2206
+2024.06.20 16:21:23 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:21:23 INFO  time: compiled todo2 in 0.85s[0m
+Jun 20, 2024 4:24:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2273
+2024.06.20 16:24:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 16:24:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 16:24:19 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 16:24:19 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.20 16:24:19 INFO  Trying to attach to remote debuggee VM localhost:47915 .[0m
+2024.06.20 16:24:19 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 16:24:20 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 16:24:20 INFO  Closing debug server tcp://0.0.0.0:34957[0m
+2024.06.20 16:40:40 ERROR Failed to tokenize input for semantic tokens for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/InMemoryModel.scala
+scala.meta.tokenizers.TokenizeException: <input>:47: error: trailing number separator
+    idStore.map(_.2_.complete)
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.readDigits(LegacyScanner.scala:716)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionOnDot(LegacyScanner.scala:723)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:398)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.20 16:40:45 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:40:47 INFO  time: compiled todo2 in 1.43s[0m
+2024.06.20 16:41:12 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:41:12 INFO  time: compiled todo2 in 0.48s[0m
+Jun 20, 2024 4:45:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2988
+2024.06.20 16:46:49 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:46:49 INFO  time: compiled todo2 in 0.47s[0m
+2024.06.20 16:47:05 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:47:05 INFO  time: compiled todo2 in 0.99s[0m
+Jun 20, 2024 4:48:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3214
+2024.06.20 16:48:44 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:48:44 INFO  time: compiled todo2 in 0.91s[0m
+Jun 20, 2024 4:49:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3295
+2024.06.20 16:49:58 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 16:49:58 INFO  time: compiled todo2 in 0.38s[0m
+2024.06.20 16:54:32 ERROR Failed to tokenize input for semantic tokens for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/InMemoryModel.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: can't use unescaped LF in character literals
+    idStore.filter(_._1 == id).map'
+                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:370)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:395)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+Jun 20, 2024 4:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3808
+2024.06.20 17:01:42 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:01:42 INFO  time: compiled todo2 in 0.74s[0m
+2024.06.20 17:01:56 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:01:56 INFO  time: compiled todo2 in 0.41s[0m
+Jun 20, 2024 5:03:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4120
+2024.06.20 17:03:43 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:03:43 INFO  time: compiled todo2 in 0.51s[0m
+Jun 20, 2024 5:03:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4156
+Jun 20, 2024 5:05:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4252
+Jun 20, 2024 5:05:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4261
+Jun 20, 2024 5:05:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4292
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.06.20 17:06:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 17:06:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 17:06:46 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 17:06:46 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.20 17:06:46 INFO  Trying to attach to remote debuggee VM localhost:47379 .[0m
+2024.06.20 17:06:46 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 17:06:47 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 17:06:47 INFO  Closing debug server tcp://0.0.0.0:37133[0m
+Jun 20, 2024 5:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4413
+Jun 20, 2024 5:11:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4420
+Jun 20, 2024 5:12:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4441
+Jun 20, 2024 5:12:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4449
+Jun 20, 2024 5:13:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4505
+Jun 20, 2024 5:13:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4552
+Jun 20, 2024 5:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4628
+Jun 20, 2024 5:18:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4639
+Jun 20, 2024 5:31:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4726
+2024.06.20 17:32:22 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:32:22 INFO  time: compiled todo2 in 0.51s[0m
+2024.06.20 17:33:17 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:33:17 INFO  time: compiled todo2 in 0.44s[0m
+Jun 20, 2024 5:34:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4896
+2024.06.20 17:34:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 17:34:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 17:34:10 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 17:34:10 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.20 17:34:10 INFO  Trying to attach to remote debuggee VM localhost:55173 .[0m
+2024.06.20 17:34:10 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 17:34:11 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 17:34:11 INFO  Closing debug server tcp://0.0.0.0:36697[0m
+Jun 20, 2024 5:36:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4930
+Jun 20, 2024 5:36:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4960
+2024.06.20 17:36:45 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:36:45 INFO  time: compiled todo2 in 0.5s[0m
+Jun 20, 2024 5:49:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5248
+2024.06.20 17:50:29 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:50:29 INFO  time: compiled todo2 in 0.62s[0m
+Jun 20, 2024 5:55:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5518
+2024.06.20 17:58:20 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 17:58:20 INFO  time: compiled todo2 in 0.54s[0m
+2024.06.20 17:58:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 17:58:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 17:58:28 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 17:58:28 INFO  Initialized Scala 3 decoder in 1 millisecond[0m
+2024.06.20 17:58:28 INFO  Trying to attach to remote debuggee VM localhost:52287 .[0m
+2024.06.20 17:58:28 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 17:58:29 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 17:58:29 INFO  Closing debug server tcp://0.0.0.0:40115[0m
+Jun 20, 2024 6:01:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5837
+2024.06.20 18:01:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.20 18:01:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.20 18:01:58 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.20 18:01:58 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.20 18:01:58 INFO  Trying to attach to remote debuggee VM localhost:38175 .[0m
+2024.06.20 18:01:58 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.20 18:01:59 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.20 18:01:58 INFO  Closing debug server tcp://0.0.0.0:35795[0m
+Jun 20, 2024 6:02:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5852
+Jun 20, 2024 6:14:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5929
+Jun 20, 2024 6:15:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6013
+2024.06.20 18:18:02 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 18:18:02 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==--OhpZQnUS4uTHe5e7EsG_Q==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==--OhpZQnUS4uTHe5e7EsG_Q==/io/circe/parser/CirceShim$package.class[0m
+2024.06.20 18:18:04 INFO  time: compiled todo2 in 1.22s[0m
+Jun 20, 2024 6:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6811
+Jun 20, 2024 6:28:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6813
+2024.06.20 18:28:58 INFO  compiling todo2 (1 scala source)[0m
+2024.06.20 18:28:58 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-kmrL_vrfQMiIqo-jKdED3g==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-kmrL_vrfQMiIqo-jKdED3g==/io/circe/parser/CirceShim$package.class[0m
+2024.06.20 18:28:58 INFO  time: compiled todo2 in 0.74s[0m
+2024.06.20 18:29:02 INFO  Shutting down server[0m
+2024.06.20 18:29:02 INFO  shutting down Metals[0m
+2024.06.20 18:29:02 INFO  Shut down connection with build server.[0m
+2024.06.20 18:29:02 INFO  Shut down connection with build server.[0m
+2024.06.20 18:29:02 INFO  Shut down connection with build server.[0m
+2024.06.20 18:29:02 INFO  Exiting server[0m
+2024.06.21 11:41:58 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@28b33d94]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@376bae5b]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@28b33d94]
+2024.06.21 11:41:58 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.21 11:41:58 INFO  Attempting to connect to the build server...[0m
+2024.06.21 11:41:58 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/PersistentModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.21 11:42:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 11:42:00 INFO  Attempting to connect to the build server...[0m
+2024.06.21 11:42:00 INFO  Attempting to connect to the build server...[0m
+2024.06.21 11:42:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 11:42:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 11:42:00 INFO  time: Connected to build server in 2.21s[0m
+2024.06.21 11:42:00 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.21 11:42:00 INFO  time: Imported build in 0.1s[0m
+2024.06.21 11:42:00 INFO  running doctor check[0m
+2024.06.21 11:42:00 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.21 11:42:00 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.21 11:42:02 INFO  time: indexed workspace in 1.64s[0m
+2024.06.21 15:36:22 INFO  Shutting down server[0m
+2024.06.21 15:36:22 INFO  shutting down Metals[0m
+2024.06.21 15:36:22 INFO  Shut down connection with build server.[0m
+2024.06.21 15:36:22 INFO  Shut down connection with build server.[0m
+2024.06.21 15:36:22 INFO  Shut down connection with build server.[0m
+2024.06.21 15:36:22 INFO  Exiting server[0m
+2024.06.21 15:36:38 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@41e9f05]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@624585c8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@41e9f05]
+2024.06.21 15:36:38 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.21 15:36:39 INFO  Attempting to connect to the build server...[0m
+2024.06.21 15:36:40 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/PersistentModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.21 15:36:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 15:36:42 INFO  Attempting to connect to the build server...[0m
+2024.06.21 15:36:42 INFO  Attempting to connect to the build server...[0m
+2024.06.21 15:36:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 15:36:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 15:36:42 INFO  time: Connected to build server in 3.12s[0m
+2024.06.21 15:36:42 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.21 15:36:43 INFO  time: Imported build in 0.12s[0m
+2024.06.21 15:36:42 INFO  running doctor check[0m
+2024.06.21 15:36:42 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.21 15:36:42 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.21 15:36:46 INFO  time: indexed workspace in 3.5s[0m
+Jun 21, 2024 3:40:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Jun 21, 2024 3:40:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+2024.06.21 15:44:05 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 15:44:07 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 15:44:09 INFO  time: compiled todo2 in 3.44s[0m
+Jun 21, 2024 3:45:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 373
+Jun 21, 2024 3:53:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 563
+Jun 21, 2024 3:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 673
+Jun 21, 2024 3:56:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 715
+Jun 21, 2024 4:00:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1028
+Jun 21, 2024 4:02:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1288
+2024.06.21 16:03:09 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 16:03:09 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 16:03:10 INFO  time: compiled todo2 in 1.27s[0m
+2024.06.21 16:03:57 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 16:03:57 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 16:03:57 INFO  time: compiled todo2 in 0.97s[0m
+2024.06.21 16:03:58 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 16:03:58 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 16:03:58 INFO  time: compiled todo2 in 0.77s[0m
+Jun 21, 2024 4:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1402
+2024.06.21 16:04:51 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 16:04:51 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-Txc2ssIsRw-B9v4iwyic9Q==-7VGcBpiJTFSSgj0o8uSYXQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 16:04:52 INFO  time: compiled todo2 in 1.08s[0m
+2024.06.21 16:05:01 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 16:05:01 INFO  time: compiled todo2 in 0.69s[0m
+Jun 21, 2024 4:08:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1781
+Jun 21, 2024 4:10:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1971
+Jun 21, 2024 4:10:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1972
+Jun 21, 2024 4:14:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2075
+Jun 21, 2024 4:14:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2109
+Jun 21, 2024 4:21:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2482
+Jun 21, 2024 4:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2522
+Jun 21, 2024 4:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2551
+Jun 21, 2024 4:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2552
+Jun 21, 2024 4:23:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2573
+Jun 21, 2024 4:24:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2654
+Jun 21, 2024 4:24:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2664
+Jun 21, 2024 4:24:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2679
+Jun 21, 2024 4:25:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2728
+Jun 21, 2024 4:27:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2817
+2024.06.21 16:27:58 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 16:27:58 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-3p7H8pOiR4Om4AQi8DLWoA==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-3p7H8pOiR4Om4AQi8DLWoA==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 16:27:58 INFO  time: compiled todo2 in 0.57s[0m
+Jun 21, 2024 4:29:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2916
+Jun 21, 2024 4:35:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3177
+Jun 21, 2024 4:37:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3247
+Jun 21, 2024 4:37:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3258
+Jun 21, 2024 4:38:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3287
+Jun 21, 2024 4:39:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3305
+Jun 21, 2024 4:39:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3306
+Jun 21, 2024 4:39:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3328
+Jun 21, 2024 4:39:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3337
+Jun 21, 2024 4:40:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3348
+Jun 21, 2024 4:54:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3513
+Jun 21, 2024 4:55:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3565
+Jun 21, 2024 4:58:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3986
+Jun 21, 2024 4:59:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4113
+Jun 21, 2024 4:59:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4152
+Jun 21, 2024 5:01:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4323
+Jun 21, 2024 5:12:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4590
+Jun 21, 2024 5:14:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4831
+Jun 21, 2024 5:14:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4868
+Jun 21, 2024 5:15:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5043
+Jun 21, 2024 5:16:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/.reports/metals-full/2024-06-21/r_compiler-error_(todo2)_17-16-02-880.md
+Jun 21, 2024 5:16:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5147
+Jun 21, 2024 5:16:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5156
+Jun 21, 2024 5:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5182
+Jun 21, 2024 5:17:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5258
+Jun 21, 2024 5:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5279
+Jun 21, 2024 5:18:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5295
+2024.06.21 17:18:56 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 17:18:56 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-B-ALzSUkQBO63D65U3wnKw==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-B-ALzSUkQBO63D65U3wnKw==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 17:18:57 INFO  time: compiled todo2 in 1.04s[0m
+2024.06.21 17:23:05 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 17:23:05 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-B-ALzSUkQBO63D65U3wnKw==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-B-ALzSUkQBO63D65U3wnKw==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 17:23:05 INFO  time: compiled todo2 in 0.32s[0m
+2024.06.21 17:23:23 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 17:23:23 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-B-ALzSUkQBO63D65U3wnKw==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-B-ALzSUkQBO63D65U3wnKw==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 17:23:23 INFO  time: compiled todo2 in 0.55s[0m
+Jun 21, 2024 5:24:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5518
+Jun 21, 2024 5:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5538
+Jun 21, 2024 5:26:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5547
+Jun 21, 2024 5:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5648
+2024.06.21 17:34:02 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 17:34:02 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-JuVYLQ7jROergnaMpPkdng==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-b1AdES8pT7WAAYNko0INbQ==-JuVYLQ7jROergnaMpPkdng==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 17:34:02 INFO  time: compiled todo2 in 0.59s[0m
+Jun 21, 2024 5:35:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6338
+Jun 21, 2024 5:36:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6465
+Jun 21, 2024 5:38:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6499
+Jun 21, 2024 5:38:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6501
+Jun 21, 2024 5:39:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6633
+Jun 21, 2024 5:40:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6697
+Jun 21, 2024 5:40:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6716
+Jun 21, 2024 5:42:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6913
+2024.06.21 17:43:10 WARN  Using indexes to guess the definition of idStore[0m
+Jun 21, 2024 5:43:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6979
+2024.06.21 17:43:11 WARN  Using indexes to guess the definition of idStore[0m
+Jun 21, 2024 5:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6997
+2024.06.21 17:44:15 WARN  Using indexes to guess the definition of idStore[0m
+2024.06.21 17:44:36 INFO  Disconnecting from Bloop session...[0m
+2024.06.21 17:44:36 INFO  Shut down connection with build server.[0m
+2024.06.21 17:44:36 INFO  Shut down connection with build server.[0m
+2024.06.21 17:44:36 INFO  Shut down connection with build server.[0m
+2024.06.21 17:44:36 INFO  Deleted directories inside .bloop[0m
+2024.06.21 17:44:36 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:44:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:44:38 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:44:38 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:44:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:44:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:44:38 INFO  time: Connected to build server in 2.32s[0m
+2024.06.21 17:44:38 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.21 17:44:39 INFO  time: Imported build in 0.13s[0m
+2024.06.21 17:44:39 INFO  running doctor check[0m
+2024.06.21 17:44:39 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.21 17:44:40 INFO  time: indexed workspace in 1.32s[0m
+2024.06.21 17:44:50 INFO  running '/home/btchinianga/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.06.21 17:44:52 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)[0m
+2024.06.21 17:44:52 INFO  [info] loading settings for project todo2-build-build-build from metals.sbt ...[0m
+2024.06.21 17:44:53 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/project[0m
+2024.06.21 17:44:53 INFO  [info] loading settings for project todo2-build-build from metals.sbt ...[0m
+2024.06.21 17:44:53 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project[0m
+2024.06.21 17:44:56 INFO  [success] Generated .bloop/todo2-build-build.json[0m
+2024.06.21 17:44:56 INFO  [success] Total time: 2 s, completed Jun 21, 2024, 5:44:56 PM[0m
+2024.06.21 17:44:56 INFO  [info] loading settings for project todo2-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2024.06.21 17:44:56 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/todo2/project[0m
+2024.06.21 17:44:56 INFO  [success] Generated .bloop/todo2-build.json[0m
+2024.06.21 17:44:57 INFO  [success] Total time: 1 s, completed Jun 21, 2024, 5:44:57 PM[0m
+2024.06.21 17:44:57 INFO  [info] loading settings for project todo2 from assignment.sbt,build.sbt ...[0m
+2024.06.21 17:44:57 INFO  [info] set current project to effective-scala-todo (in build file:/home/btchinianga/linux_workspace/Formation_scala/todo2/)[0m
+2024.06.21 17:44:58 INFO  [success] Generated .bloop/todo2.json[0m
+2024.06.21 17:44:58 INFO  [success] Generated .bloop/todo2-test.json[0m
+2024.06.21 17:44:58 INFO  [success] Total time: 0 s, completed Jun 21, 2024, 5:44:58 PM[0m
+2024.06.21 17:44:58 INFO  time: ran 'sbt bloopInstall' in 7.98s[0m
+2024.06.21 17:44:58 INFO  Disconnecting from Bloop session...[0m
+2024.06.21 17:44:58 INFO  Shut down connection with build server.[0m
+2024.06.21 17:44:58 INFO  Shut down connection with build server.[0m
+2024.06.21 17:44:58 INFO  Shut down connection with build server.[0m
+2024.06.21 17:44:58 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:44:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:44:58 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:44:58 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:44:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:44:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:44:58 INFO  time: Connected to build server in 89ms[0m
+2024.06.21 17:44:58 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.21 17:44:58 INFO  running doctor check[0m
+2024.06.21 17:44:58 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.21 17:45:00 INFO  time: indexed workspace in 1.12s[0m
+2024.06.21 17:45:25 INFO  Shutting down server[0m
+2024.06.21 17:45:25 INFO  shutting down Metals[0m
+2024.06.21 17:45:25 INFO  Shut down connection with build server.[0m
+2024.06.21 17:45:25 INFO  Shut down connection with build server.[0m
+2024.06.21 17:45:25 INFO  Shut down connection with build server.[0m
+2024.06.21 17:45:25 INFO  Exiting server[0m
+2024.06.21 17:45:36 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3d127c0a]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1230aa35]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3d127c0a]
+2024.06.21 17:45:36 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.21 17:45:38 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:45:38 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/PersistentModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.21 17:45:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:45:40 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:45:40 INFO  Attempting to connect to the build server...[0m
+2024.06.21 17:45:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:45:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.21 17:45:40 INFO  time: Connected to build server in 2.82s[0m
+2024.06.21 17:45:40 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.21 17:45:41 INFO  time: Imported build in 0.16s[0m
+2024.06.21 17:45:40 INFO  running doctor check[0m
+2024.06.21 17:45:40 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.21 17:45:40 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.21 17:45:48 INFO  time: indexed workspace in 7.18s[0m
+2024.06.21 17:45:48 INFO  compiling todo2 (15 scala sources)[0m
+2024.06.21 17:45:55 INFO  compiling todo2-test (3 scala sources)[0m
+2024.06.21 17:45:55 INFO  time: compiled todo2 in 6.77s[0m
+2024.06.21 17:45:56 INFO  time: compiled todo2-test in 1.14s[0m
+2024.06.21 17:47:01 WARN  Using indexes to guess the definition of flatMap[0m
+2024.06.21 17:47:05 WARN  Using indexes to guess the definition of flatMap[0m
+Jun 21, 2024 5:47:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+2024.06.21 17:47:20 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 17:47:20 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-cpjLpTd9SquswlEdTDqf_w==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-cpjLpTd9SquswlEdTDqf_w==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 17:47:20 INFO  time: compiled todo2 in 0.71s[0m
+Jun 21, 2024 5:48:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 229
+Jun 21, 2024 5:49:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 381
+Jun 21, 2024 5:50:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 434
+2024.06.21 17:50:05 INFO  time: code lens generation in 1.07s[0m
+Jun 21, 2024 5:50:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 472
+Jun 21, 2024 5:55:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 593
+Jun 21, 2024 5:55:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 610
+Jun 21, 2024 5:56:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 705
+2024.06.21 17:57:47 WARN  Using indexes to guess the definition of idStore[0m
+2024.06.21 17:57:48 WARN  Using indexes to guess the definition of idStore[0m
+2024.06.21 18:00:58 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:00:58 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-S4qwom86ThuuNVDzj-XtRQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-S4qwom86ThuuNVDzj-XtRQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:00:59 INFO  time: compiled todo2 in 1.37s[0m
+2024.06.21 18:01:35 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:01:35 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-S4qwom86ThuuNVDzj-XtRQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-S4qwom86ThuuNVDzj-XtRQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:01:35 INFO  time: compiled todo2 in 0.87s[0m
+Jun 21, 2024 6:03:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 980
+Jun 21, 2024 6:04:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1029
+Jun 21, 2024 6:06:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/.reports/metals-full/2024-06-21/r_compiler-error_(todo2)_18-06-07-955.md
+Jun 21, 2024 6:06:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1091
+2024.06.21 18:07:34 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:07:34 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-S4qwom86ThuuNVDzj-XtRQ==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-S4qwom86ThuuNVDzj-XtRQ==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:07:34 INFO  time: compiled todo2 in 0.48s[0m
+Jun 21, 2024 6:08:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1252
+2024.06.21 18:08:18 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:08:18 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-l71ASBwTToWq1QDntmBklA==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-l71ASBwTToWq1QDntmBklA==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:08:18 INFO  time: compiled todo2 in 0.39s[0m
+Jun 21, 2024 6:09:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1490
+2024.06.21 18:10:02 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:10:02 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-W99vPHEDSAKoON1TmzbBkw==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-W99vPHEDSAKoON1TmzbBkw==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:10:02 INFO  time: compiled todo2 in 0.64s[0m
+2024.06.21 18:10:36 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:10:36 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-W99vPHEDSAKoON1TmzbBkw==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-W99vPHEDSAKoON1TmzbBkw==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:10:36 INFO  time: compiled todo2 in 0.59s[0m
+2024.06.21 18:10:46 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:10:46 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-W99vPHEDSAKoON1TmzbBkw==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-W99vPHEDSAKoON1TmzbBkw==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:10:46 INFO  time: compiled todo2 in 0.37s[0m
+Jun 21, 2024 6:10:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1645
+2024.06.21 18:11:36 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:11:36 WARN  Toplevel definition decode is defined in
+  /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-gDqleUstQqecaGC0DfObSw==/io/circe/parser/CirceShim$package.class
+and also in
+  /home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar(io/circe/Parser.class)
+Keeping only the definition in /home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2/bloop-internal-classes/classes-Metals-B_VeYBNoTwmboMTbgaGQ0A==-gDqleUstQqecaGC0DfObSw==/io/circe/parser/CirceShim$package.class[0m
+2024.06.21 18:11:36 INFO  time: compiled todo2 in 0.32s[0m
+2024.06.21 18:11:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.21 18:11:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.21 18:11:46 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.21 18:11:47 INFO  Initialized Scala 3 decoder in 4 milliseconds[0m
+2024.06.21 18:11:47 INFO  Trying to attach to remote debuggee VM localhost:58563 .[0m
+2024.06.21 18:11:47 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.21 18:11:48 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.21 18:11:48 INFO  Closing debug server tcp://0.0.0.0:40751[0m
+Jun 21, 2024 6:12:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1743
+Jun 21, 2024 6:12:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1777
+2024.06.21 18:12:25 INFO  compiling todo2 (1 scala source)[0m
+2024.06.21 18:12:25 INFO  time: compiled todo2 in 0.53s[0m
+Jun 21, 2024 6:12:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1798
+2024.06.21 18:12:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.21 18:12:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.21 18:12:33 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.21 18:12:33 INFO  Initialized Scala 3 decoder in 0 milliseconds[0m
+2024.06.21 18:12:33 INFO  Trying to attach to remote debuggee VM localhost:52371 .[0m
+2024.06.21 18:12:33 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.21 18:12:34 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.21 18:12:33 INFO  Closing debug server tcp://0.0.0.0:33643[0m
+2024.06.21 18:13:40 INFO  Shutting down server[0m
+2024.06.21 18:13:40 INFO  shutting down Metals[0m
+2024.06.21 18:13:40 INFO  Shut down connection with build server.[0m
+2024.06.21 18:13:40 INFO  Shut down connection with build server.[0m
+2024.06.21 18:13:40 INFO  Shut down connection with build server.[0m
+2024.06.21 18:13:40 INFO  Exiting server[0m
+2024.06.24 10:28:24 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@41e9f05]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@624585c8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@41e9f05]
+2024.06.24 10:28:24 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.24 10:28:25 INFO  Attempting to connect to the build server...[0m
+2024.06.24 10:28:25 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/PersistentModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.24 10:28:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.24 10:28:27 INFO  Attempting to connect to the build server...[0m
+2024.06.24 10:28:27 INFO  Attempting to connect to the build server...[0m
+2024.06.24 10:28:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.24 10:28:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.24 10:28:27 INFO  time: Connected to build server in 2.23s[0m
+2024.06.24 10:28:27 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.24 10:28:27 INFO  time: Imported build in 0.12s[0m
+2024.06.24 10:28:27 INFO  running doctor check[0m
+2024.06.24 10:28:27 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.24 10:28:27 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.24 10:28:30 INFO  time: indexed workspace in 2.39s[0m
+Jun 24, 2024 12:49:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Jun 24, 2024 1:39:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2024.06.24 13:39:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.06.24 13:39:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.06.24 13:39:59 INFO  Starting debug proxy for [todo.TodoSuite()][0m
+2024.06.24 13:40:00 INFO  Initialized Scala 3 decoder in 2 milliseconds[0m
+2024.06.24 13:40:00 INFO  Trying to attach to remote debuggee VM localhost:51325 .[0m
+2024.06.24 13:40:00 INFO  Attaching to debuggee VM succeeded.[0m
+2024.06.24 13:40:01 INFO  Canceling debug proxy for [todo.TodoSuite()][0m
+2024.06.24 13:40:01 INFO  Closing debug server tcp://0.0.0.0:39477[0m
+Jun 24, 2024 1:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 79
+Jun 24, 2024 1:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 80
+Jun 24, 2024 1:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+Jun 24, 2024 1:56:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+Jun 24, 2024 1:56:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+2024.06.24 14:09:10 INFO  Shutting down server[0m
+2024.06.24 14:09:10 INFO  shutting down Metals[0m
+2024.06.24 14:09:10 INFO  Shut down connection with build server.[0m
+2024.06.24 14:09:10 INFO  Shut down connection with build server.[0m
+2024.06.24 14:09:10 INFO  Shut down connection with build server.[0m
+2024.06.24 14:09:10 INFO  Exiting server[0m
+2024.06.24 14:42:44 INFO  Started: Metals version 1.3.2+2-5b1e0406-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/todo2' for client Visual Studio Code 1.90.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@71f58e1a]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3086db3d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@71f58e1a]
+2024.06.24 14:42:44 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.24 14:42:45 INFO  Attempting to connect to the build server...[0m
+2024.06.24 14:42:46 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/todo2/src/main/scala/todo/PersistentModel.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.24 14:42:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.24 14:42:48 INFO  Attempting to connect to the build server...[0m
+2024.06.24 14:42:48 INFO  Attempting to connect to the build server...[0m
+2024.06.24 14:42:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.24 14:42:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/todo2/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.24 14:42:48 INFO  time: Connected to build server in 3.02s[0m
+2024.06.24 14:42:48 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.24 14:42:48 INFO  time: Imported build in 0.14s[0m
+2024.06.24 14:42:49 INFO  running doctor check[0m
+2024.06.24 14:42:49 INFO  java targets: todo2-test, todo2, todo2-build, todo2-build-build[0m
+2024.06.24 14:42:49 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.24 14:42:51 INFO  time: indexed workspace in 2.39s[0m

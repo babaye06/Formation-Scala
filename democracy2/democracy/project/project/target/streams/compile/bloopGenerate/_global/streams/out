@@ -1,0 +1,4 @@
+[debug] [democracy-build-build] Classpath dependencies List()
+[debug] [democracy-build-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'democracy-build-build' to '/home/btchinianga/linux_workspace/Formation_scala/democracy2/democracy/project/project/.bloop/democracy-build-build.json'
+[success] Generated .bloop/democracy-build-build.json

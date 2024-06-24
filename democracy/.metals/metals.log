@@ -1,0 +1,1169 @@
+2024.02.13 13:02:57 INFO  Started: Metals version 1.2.1 in folders '/home/btchinianga/linux_workspace/Formation_scala/democracy' for client Visual Studio Code 1.86.1.[0m
+13:02:58.319 [pool-1-thread-6] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+13:02:58.321 [pool-1-thread-6] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+13:02:58.321 [pool-1-thread-6] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+13:02:58.323 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+13:02:58.323 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+13:02:58.323 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+13:02:58.323 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+13:02:58.323 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+13:02:58.324 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.1/metals_2.13-1.2.1.jar!/db/migration
+13:02:58.326 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+13:02:58.327 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+13:02:58.327 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+13:02:58.327 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+13:02:58.327 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+13:02:58.327 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+13:02:58.329 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:02:58.329 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+13:02:58.330 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+13:02:58.330 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+13:02:58.330 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+13:02:58.389 [pool-1-thread-6] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/metals (H2 2.2)
+13:02:58.389 [pool-1-thread-6] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+13:02:58.389 [pool-1-thread-6] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+13:02:58.390 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+13:02:58.390 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+13:02:58.394 [pool-1-thread-6] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+13:02:58.395 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+13:02:58.395 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:02:58.400 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+13:02:58.403 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:02:58.407 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:02:58.407 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:02:58.407 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:02:58.407 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:02:58.407 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:02:58.407 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:02:58.407 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:02:58.408 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:02:58.408 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:02:58.408 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:02:58.409 [pool-1-thread-6] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+13:02:58.411 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.010s)
+13:02:58.413 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+13:02:58.416 [pool-1-thread-6] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+13:02:58.417 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+13:02:58.424 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+13:02:58.424 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+13:02:58.424 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+13:02:58.427 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.427 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+13:02:58.429 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.430 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+13:02:58.435 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+13:02:58.436 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+13:02:58.438 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+13:02:58.438 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+13:02:58.439 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+13:02:58.440 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+13:02:58.440 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+13:02:58.441 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+13:02:58.442 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+13:02:58.443 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+13:02:58.444 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.444 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+13:02:58.445 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.445 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+13:02:58.445 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.445 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+13:02:58.446 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.446 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+13:02:58.447 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.447 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+13:02:58.450 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+13:02:58.454 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+13:02:58.457 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+13:02:58.457 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+13:02:58.457 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+13:02:58.458 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+13:02:58.459 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.459 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+13:02:58.462 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+13:02:58.464 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+13:02:58.464 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+13:02:58.465 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+13:02:58.470 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+13:02:58.471 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+13:02:58.471 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+13:02:58.471 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+13:02:58.475 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.475 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+13:02:58.478 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.479 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+13:02:58.479 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.479 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+13:02:58.482 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+13:02:58.485 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+13:02:58.487 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+13:02:58.487 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+13:02:58.487 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+13:02:58.488 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+13:02:58.489 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+13:02:58.489 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+13:02:58.490 [pool-1-thread-6] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+13:02:58.494 [pool-1-thread-6] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.017s)
+13:02:58.504 [pool-1-thread-6] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 100M
+2024.02.13 13:02:58 WARN  Build server is not auto-connectable.[0m
+2024.02.13 13:03:50 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.02.13 13:03:52 INFO  time: code lens generation in 5.45s[0m
+Feb 13, 2024 1:09:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2024.02.13 13:35:22 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/test.worksheet.sc[0m
+2024.02.13 13:35:22 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/test.worksheet.sc[0m
+2024.02.13 13:35:25 INFO  time: evaluated worksheet 'test.worksheet.sc' in 2.75s[0m
+2024.02.13 13:35:27 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/test.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.02.13 13:35:46 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:35:46 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:35:46 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+2024.02.13 13:35:49 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.02.13 13:35:59 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:36:00 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.71s[0m
+2024.02.13 13:36:20 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:36:20 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.38s[0m
+2024.02.13 13:37:12 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:7:1: 
+Not found: grades
+grades.sortBy()
+^^^^^^
+2024.02.13 13:37:13 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+2024.02.13 13:46:01 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:46:02 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.79s[0m
+2024.02.13 13:46:09 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:1: 
+Not found: grades
+grades.sortBy()
+^^^^^^
+2024.02.13 13:46:09 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.23s[0m
+2024.02.13 13:46:16 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:1: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: MdocApp.this.Grade => B)
+  (implicit ord: Ordering[B]): List[MdocApp.this.Grade]
+liste.sortBy()
+^^^^^^^^^^^^^^
+2024.02.13 13:46:16 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+Feb 13, 2024 1:46:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1065
+2024.02.13 13:48:51 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:1: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: MdocApp.this.Grade => B)
+  (implicit ord: Ordering[B]): List[MdocApp.this.Grade]
+liste.sortBy()
+^^^^^^^^^^^^^^
+2024.02.13 13:48:51 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.18s[0m
+2024.02.13 13:49:07 WARN  Could not find semantic tokens for: file:///home/btchinianga/linux_workspace/Formation_scala/democracy/assignment.sbt[0m
+2024.02.13 13:49:22 WARN  Could not find semantic tokens for: file:///home/btchinianga/linux_workspace/Formation_scala/democracy/assignment.sbt[0m
+2024.02.13 13:49:23 WARN  Could not find semantic tokens for: file:///home/btchinianga/linux_workspace/Formation_scala/democracy/build.sbt[0m
+2024.02.13 13:50:00 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:1: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: MdocApp.this.Grade => B)
+  (implicit ord: Ordering[B]): List[MdocApp.this.Grade]
+liste.sortBy()
+^^^^^^^^^^^^^^
+2024.02.13 13:50:00 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.17s[0m
+2024.02.13 13:50:04 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:1: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: MdocApp.this.Grade => B)
+  (implicit ord: Ordering[B]): List[MdocApp.this.Grade]
+liste.sortBy()
+^^^^^^^^^^^^^^
+2024.02.13 13:50:04 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.14s[0m
+2024.02.13 13:50:17 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:1: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: MdocApp.this.Grade => B)(implicit ord: Ordering[B]): Seq[MdocApp.this.Grade]
+liste.sortBy()
+^^^^^^^^^^^^^^
+2024.02.13 13:50:17 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.19s[0m
+2024.02.13 13:50:39 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:14: 
+value ordinal is not a member of object MdocApp.this.Grade
+liste.sortBy(Grade.ordinal)
+             ^^^^^^^^^^^^^
+2024.02.13 13:50:39 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.19s[0m
+2024.02.13 13:50:58 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:14: 
+value ordinal is not a member of object MdocApp.this.Grade
+liste.sortBy(Grade.ordinal)
+             ^^^^^^^^^^^^^
+2024.02.13 13:50:59 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.12s[0m
+Feb 13, 2024 1:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1292
+2024.02.13 13:52:39 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:11:1: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: MdocApp.this.Grade => B)(implicit ord: Ordering[B]): Seq[MdocApp.this.Grade]
+liste.sortBy()
+^^^^^^^^^^^^^^
+2024.02.13 13:52:40 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.15s[0m
+2024.02.13 13:53:24 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:53:25 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.51s[0m
+2024.02.13 13:54:47 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:54:47 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+2024.02.13 13:55:34 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:55:34 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.42s[0m
+2024.02.13 13:56:04 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:56:04 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.39s[0m
+2024.02.13 13:56:21 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 13:56:21 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+Feb 13, 2024 1:56:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1865
+2024.02.13 14:00:35 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:00:35 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.4s[0m
+2024.02.13 14:03:43 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:17:1: = expected but if found
+if size %2 == 0 then
+^^
+2024.02.13 14:03:43 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.2s[0m
+2024.02.13 14:03:54 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:16:19: identifier expected but ) found
+def median(liste: )
+                  ^
+2024.02.13 14:03:55 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.18s[0m
+2024.02.13 14:04:37 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:17:1: = expected but if found
+if size %2 == 0 then
+^^
+2024.02.13 14:04:38 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.18s[0m
+2024.02.13 14:05:11 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:16:5: 
+Declaration of method median not allowed here: only classes can have declared but undefined members
+def median(liste: Seq[Grade]): Grade
+    ^
+2024.02.13 14:05:11 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.13s[0m
+2024.02.13 14:07:47 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:16:40: 
+Not found: size
+        val median_1 = new_liste.apply(size/2)
+                                       ^^^^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:17:41: 
+Not found: size
+        val median_2 = new_liste.apply((size/2)+1)
+                                        ^^^^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:17:51: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median_2 = new_liste.apply((size/2)+1)
+                                                  ^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:19:39: 
+Not found: size
+        val median = new_liste.apply((size+1)/2)
+                                      ^^^^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:19:49: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median = new_liste.apply((size+1)/2)
+                                                ^
+2024.02.13 14:07:47 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.19s[0m
+2024.02.13 14:08:25 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:18:51: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median_2 = new_liste.apply((size/2)+1)
+                                                  ^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:20:49: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median = new_liste.apply((size+1)/2)
+                                                ^
+2024.02.13 14:08:26 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.12s[0m
+2024.02.13 14:09:39 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:18:51: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median_2 = new_liste.apply((size/2)+1)
+                                                  ^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:20:49: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median = new_liste.apply((size+1)/2)
+                                                ^
+2024.02.13 14:09:39 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.15s[0m
+2024.02.13 14:10:06 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:17:51: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median_1 = new_liste.apply((size/2)+1)
+                                                  ^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:19:49: 
+Found:    Unit
+Required: MdocApp.this.Grade
+        val median = new_liste.apply((size+1)/2)
+                                                ^
+2024.02.13 14:10:06 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.12s[0m
+2024.02.13 14:10:40 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:17:9: 
+Not found: median_1
+        median_1 = new_liste.apply((size/2)+1)
+        ^^^^^^^^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:19:9: 
+Reassignment to val median
+        median = new_liste.apply((size+1)/2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2024.02.13 14:10:41 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.19s[0m
+Feb 13, 2024 2:10:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3134
+2024.02.13 14:12:39 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:25:02 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/MajorityJudgement.scala[0m
+2024.02.13 14:25:06 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:25:06 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.25s[0m
+2024.02.13 14:25:43 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:25:43 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+2024.02.13 14:38:08 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:38:08 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+2024.02.13 14:51:56 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:51:56 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+Feb 13, 2024 2:52:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3678
+Feb 13, 2024 2:54:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3704
+2024.02.13 14:56:41 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:56:42 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.41s[0m
+2024.02.13 14:57:37 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 14:57:38 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.31s[0m
+2024.02.13 15:03:30 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:03:31 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.35s[0m
+2024.02.13 15:06:36 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:06:37 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.43s[0m
+2024.02.13 15:07:02 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:07:02 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.42s[0m
+Feb 13, 2024 3:07:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4431
+2024.02.13 15:07:47 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:07:47 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+2024.02.13 15:08:27 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:08:27 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.37s[0m
+2024.02.13 15:09:01 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:09:02 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.31s[0m
+2024.02.13 15:13:56 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:13:56 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.4s[0m
+2024.02.13 15:14:27 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:14:28 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+2024.02.13 15:15:18 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:15:18 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.29s[0m
+2024.02.13 15:15:43 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:44:7: 
+Not found: ballots
+      ballots.flatMap(_.grades.toSeq)
+      ^^^^^^^
+2024.02.13 15:15:43 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.14s[0m
+2024.02.13 15:16:16 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:16:16 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+2024.02.13 15:17:08 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:17:08 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.29s[0m
+2024.02.13 15:18:25 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:18:25 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.26s[0m
+2024.02.13 15:19:10 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:19:10 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.38s[0m
+2024.02.13 15:22:00 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:22:00 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+2024.02.13 15:22:08 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:22:08 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+Feb 13, 2024 3:22:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/.reports/metals-full/2024-02-13/r_compiler-error_15-22-59-829.md
+2024.02.13 15:25:34 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:25:34 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+Feb 13, 2024 3:28:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/.reports/metals-full/2024-02-13/r_compiler-error_15-28-17-315.md
+2024.02.13 15:29:40 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:29:40 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+2024.02.13 15:31:10 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:31:11 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.33s[0m
+2024.02.13 15:33:48 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:33:48 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+2024.02.13 15:34:00 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:46:5: illegal start of simple pattern
+val 
+    ^
+2024.02.13 15:34:00 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.1s[0m
+2024.02.13 15:34:32 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:35:20 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:46:27: identifier expected but end of file found
+val depouillement_filtre: 
+                          ^
+2024.02.13 15:35:20 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.13s[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:47:33: ) expected but double constant found
+    depouillement.groupBy(_._1,_.2)
+                                ^^
+2024.02.13 15:36:17 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.19s[0m
+2024.02.13 15:36:31 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:47:27: 
+Missing parameter type
+
+I could not infer the type of the parameter _$3 of expanded function:
+_$3 => _$3._1.
+    depouillement.groupBy(_._1, _._2)
+                          ^
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:47:33: 
+Missing parameter type
+
+I could not infer the type of the parameter _$4 of expanded function:
+_$4 => _$4._2.
+    depouillement.groupBy(_._1, _._2)
+                                ^
+2024.02.13 15:36:31 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.22s[0m
+2024.02.13 15:39:26 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:47:29: 
+Missing parameter type
+
+I could not infer the type of the parameter _$4 of expanded function:
+(_$3, _$4) => depouillement.groupBy(_$3, _$4).
+    depouillement.groupBy(_,_)
+                            ^
+2024.02.13 15:39:27 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.18s[0m
+Feb 13, 2024 3:39:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1230
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1230
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1230
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)
+	at java.base/java.lang.String.substring(String.java:2704)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Feb 13, 2024 3:39:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1230
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1230
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1230
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)
+	at java.base/java.lang.String.substring(String.java:2704)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Feb 13, 2024 3:39:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1231
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1231
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 1207, end 1233, length 1231
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)
+	at java.base/java.lang.String.substring(String.java:2704)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.02.13 15:39:44 ERROR Failed to tokenize input for semantic tokens for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:48: error: unclosed character literal
+      depouillement.groupMap('')
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.02.13 15:39:47 ERROR Failed to tokenize input for semantic tokens for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:48: error: unclosed character literal
+      depouillement.groupMap(')
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.02.13 15:42:27 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 15:42:27 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.37s[0m
+2024.02.13 16:06:38 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/onvavoir.worksheet.sc[0m
+2024.02.13 16:06:39 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.86s[0m
+2024.02.13 16:39:00 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/MajorityJudgement.scala[0m
+2024.02.13 16:39:02 INFO  Shutting down server[0m
+2024.02.13 16:39:02 INFO  shutting down Metals[0m
+2024.02.13 16:39:02 INFO  Exiting server[0m
+2024.02.13 16:39:02 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.02.14 09:26:03 INFO  Started: Metals version 1.2.1 in folders '/home/btchinianga/linux_workspace/Formation_scala/democracy' for client Visual Studio Code 1.86.1.[0m
+09:26:03.940 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+09:26:03.942 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+09:26:03.942 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+09:26:03.944 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+09:26:03.944 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+09:26:03.944 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+09:26:03.944 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+09:26:03.944 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@5cb0d902 ...
+09:26:03.944 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/home/btchinianga/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.1/metals_2.13-1.2.1.jar!/db/migration
+09:26:03.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+09:26:03.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+09:26:03.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+09:26:03.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+09:26:03.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+09:26:03.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+09:26:03.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:26:03.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+09:26:03.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+09:26:03.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+09:26:03.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+09:26:04.003 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/metals (H2 2.2)
+09:26:04.004 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+09:26:04.004 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+09:26:04.005 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+09:26:04.005 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+09:26:04.009 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+09:26:04.010 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+09:26:04.010 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:26:04.014 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+09:26:04.016 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:26:04.020 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:26:04.020 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:26:04.020 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:26:04.020 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:26:04.020 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:26:04.021 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:26:04.021 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:26:04.021 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:26:04.021 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:26:04.021 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:26:04.028 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.013s)
+09:26:04.029 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+09:26:04.033 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+09:26:04.036 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+09:26:04.045 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 100M
+2024.02.14 09:26:04 WARN  Build server is not auto-connectable.[0m
+2024.02.14 09:26:06 INFO  running '/home/btchinianga/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.02.14 09:26:07 WARN  no build target for: /home/btchinianga/linux_workspace/Formation_scala/democracy/project/metals.sbt[0m
+2024.02.14 09:26:07 INFO  skipping build import with status 'Started'[0m
+2024.02.14 09:26:08 INFO  [info] welcome to sbt 1.8.2 (Eclipse Adoptium Java 11.0.22)[0m
+2024.02.14 09:26:09 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.02.14 09:26:10 INFO  [info] loading settings for project democracy-build-build-build from metals.sbt ...[0m
+2024.02.14 09:26:10 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/democracy/project/project/project[0m
+2024.02.14 09:26:12 INFO  time: code lens generation in 5.76s[0m
+2024.02.14 09:26:12 INFO  time: code lens generation in 8.24s[0m
+2024.02.14 09:26:12 INFO  [info] loading settings for project democracy-build-build from metals.sbt ...[0m
+2024.02.14 09:26:12 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/democracy/project/project[0m
+2024.02.14 09:26:14 INFO  [success] Generated .bloop/democracy-build-build.json[0m
+2024.02.14 09:26:14 INFO  [success] Total time: 1 s, completed Feb 14, 2024, 9:26:14 AM[0m
+2024.02.14 09:26:15 INFO  [info] loading settings for project democracy-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2024.02.14 09:26:15 INFO  [info] loading project definition from /home/btchinianga/linux_workspace/Formation_scala/democracy/project[0m
+2024.02.14 09:26:15 INFO  [success] Generated .bloop/democracy-build.json[0m
+2024.02.14 09:26:15 INFO  [info] compiling 3 Scala sources to /home/btchinianga/linux_workspace/Formation_scala/democracy/project/target/scala-2.12/sbt-1.0/classes ...[0m
+2024.02.14 09:26:15 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.17. Compiling...[0m
+2024.02.14 09:26:23 INFO  [info]   Compilation completed in 7.307s.[0m
+2024.02.14 09:26:25 INFO  [info] done compiling[0m
+2024.02.14 09:26:25 INFO  [success] Total time: 11 s, completed Feb 14, 2024, 9:26:25 AM[0m
+2024.02.14 09:26:26 INFO  [info] loading settings for project democracy from assignment.sbt,build.sbt ...[0m
+2024.02.14 09:26:26 INFO  [info] set current project to effective-scala-democracy (in build file:/home/btchinianga/linux_workspace/Formation_scala/democracy/)[0m
+2024.02.14 09:26:26 INFO  [success] Generated .bloop/democracy-test.json[0m
+2024.02.14 09:26:26 INFO  [success] Generated .bloop/democracy.json[0m
+2024.02.14 09:26:26 INFO  [success] Total time: 0 s, completed Feb 14, 2024, 9:26:27 AM[0m
+2024.02.14 09:26:28 INFO  time: ran 'sbt bloopInstall' in 21s[0m
+2024.02.14 09:26:28 INFO  Attempting to connect to the build server...[0m
+2024.02.14 09:26:28 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+2024.02.14 09:26:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 09:26:29 INFO  Attempting to connect to the build server...[0m
+2024.02.14 09:26:29 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+2024.02.14 09:26:29 INFO  Attempting to connect to the build server...[0m
+2024.02.14 09:26:29 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+2024.02.14 09:26:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 09:26:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 09:26:29 INFO  time: Connected to build server in 1.79s[0m
+2024.02.14 09:26:29 INFO  Connected to Build server: Bloop v1.5.15[0m
+2024.02.14 09:26:34 INFO  time: indexed workspace in 4.64s[0m
+2024.02.14 09:26:35 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 09:26:38 INFO  compiling democracy-test (1 scala source)[0m
+2024.02.14 09:26:38 INFO  time: compiled democracy in 3.62s[0m
+2024.02.14 09:26:40 INFO  time: compiled democracy-test in 1.77s[0m
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 09:28:56 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 3.74s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:31:54 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.89s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:32:23 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.58s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:33:19 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.59s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:35:02 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.41s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:37:51 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.43s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:53:22 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.43s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:55:01 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.41s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:55:29 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.35s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:55:36 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:56:14 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+Flag -deprecation set repeatedly
+2024.02.14 09:56:17 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:01:05 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:02:24 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+Feb 14, 2024 10:06:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/.reports/metals-full/2024-02-14/r_compiler-error_(democracy)_10-06-47-853.md
+Feb 14, 2024 10:08:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1287
+Flag -deprecation set repeatedly
+2024.02.14 10:11:12 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.37s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:11:31 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.33s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:11:46 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:12:18 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:14:54 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.29s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:21:28 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+Feb 14, 2024 10:21:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1599
+2024.02.14 10:30:50 INFO  Disconnecting from Bloop session...[0m
+2024.02.14 10:30:50 INFO  Shut down connection with build server.[0m
+2024.02.14 10:30:50 INFO  Shut down connection with build server.[0m
+2024.02.14 10:30:50 INFO  Shut down connection with build server.[0m
+2024.02.14 10:30:50 INFO  Deleted directories inside .bloop[0m
+2024.02.14 10:30:50 INFO  Attempting to connect to the build server...[0m
+2024.02.14 10:30:50 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:30:50 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.47s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:30:50 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.35s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:30:50 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.39s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:30:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 10:30:51 INFO  Attempting to connect to the build server...[0m
+2024.02.14 10:30:51 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+2024.02.14 10:30:51 INFO  Attempting to connect to the build server...[0m
+2024.02.14 10:30:51 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+2024.02.14 10:30:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 10:30:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 10:30:51 INFO  time: Connected to build server in 1.45s[0m
+2024.02.14 10:30:51 INFO  Connected to Build server: Bloop v1.5.15[0m
+2024.02.14 10:30:51 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:30:51 INFO  time: Imported build in 0.1s[0m
+2024.02.14 10:30:51 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 10:30:52 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.35s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:30:53 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.42s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:30:53 INFO  time: indexed workspace in 1.18s[0m
+2024.02.14 10:30:52 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.35s[0m
+2024.02.14 10:30:55 INFO  time: code lens generation in 1.68s[0m
+2024.02.14 10:31:08 INFO  Disconnecting from Bloop session...[0m
+2024.02.14 10:31:08 INFO  Shut down connection with build server.[0m
+2024.02.14 10:31:08 INFO  Shut down connection with build server.[0m
+2024.02.14 10:31:08 INFO  Shut down connection with build server.[0m
+2024.02.14 10:31:08 INFO  Deleted directories inside .bloop[0m
+2024.02.14 10:31:08 INFO  Attempting to connect to the build server...[0m
+2024.02.14 10:31:08 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:31:08 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:31:09 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.29s[0m
+2024.02.14 10:31:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 10:31:09 INFO  Attempting to connect to the build server...[0m
+2024.02.14 10:31:09 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+2024.02.14 10:31:09 INFO  Attempting to connect to the build server...[0m
+2024.02.14 10:31:09 INFO  Bloop uses /home/btchinianga/.jabba/jdk/openjdk@1.17.0 defined at /home/btchinianga/.bloop/bloop.json[0m
+2024.02.14 10:31:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 10:31:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.02.14 10:31:09 INFO  time: Connected to build server in 1.07s[0m
+2024.02.14 10:31:09 INFO  Connected to Build server: Bloop v1.5.15[0m
+2024.02.14 10:31:10 INFO  time: indexed workspace in 0.98s[0m
+2024.02.14 10:31:12 INFO  time: code lens generation in 1.33s[0m
+2024.02.14 10:35:42 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 10:35:44 INFO  time: compiled democracy in 1.83s[0m
+2024.02.14 10:35:53 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 10:35:53 INFO  time: compiled democracy in 0.4s[0m
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 10:35:53 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+Feb 14, 2024 10:38:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2311
+2024.02.14 10:39:21 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 10:39:21 INFO  time: compiled democracy in 0.25s[0m
+2024.02.14 10:46:04 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 10:46:05 INFO  time: compiled democracy in 1.21s[0m
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 10:46:13 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.31s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:46:38 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+Feb 14, 2024 10:46:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2537
+Flag -deprecation set repeatedly
+2024.02.14 10:47:42 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.33s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:48:56 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.29s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:49:49 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.24s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:50:39 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.23s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:54:22 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.32s[0m
+Flag -deprecation set repeatedly
+2024.02.14 10:56:13 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+2024.02.14 10:58:38 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 10:58:38 INFO  time: compiled democracy in 0.67s[0m
+2024.02.14 10:58:49 INFO  compiling democracy-test (1 scala source)[0m
+2024.02.14 10:58:49 INFO  time: compiled democracy-test in 0.97s[0m
+2024.02.14 10:58:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 10:58:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 10:58:53 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 10:58:53 INFO  Trying to attach to remote debuggee VM localhost:42299 .[0m
+2024.02.14 10:58:53 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 10:58:54 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 10:58:53 INFO  Closing debug server tcp://0.0.0.0:42407[0m
+2024.02.14 10:59:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 10:59:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 10:59:24 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with a single element should be that element)][0m
+2024.02.14 10:59:24 INFO  Trying to attach to remote debuggee VM localhost:54543 .[0m
+2024.02.14 10:59:24 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 10:59:24 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with a single element should be that element)][0m
+2024.02.14 10:59:24 INFO  Closing debug server tcp://0.0.0.0:45973[0m
+Feb 14, 2024 11:01:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2924
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 11:01:06 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+Flag -deprecation set repeatedly
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:15:8: 
+Found:    (MdocApp.this.liste2 : MdocApp.this.Grade)
+Required: Seq[MdocApp.this.Grade]
+median(liste2)
+       ^^^^^^
+2024.02.14 11:02:07 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.2s[0m
+Flag -deprecation set repeatedly
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:15:8: 
+Found:    (MdocApp.this.liste2 : MdocApp.this.Grade)
+Required: Seq[MdocApp.this.Grade]
+median(liste2)
+       ^^^^^^
+2024.02.14 11:05:57 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.18s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:06:14 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+Feb 14, 2024 11:06:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3148
+Flag -deprecation set repeatedly
+2024.02.14 11:08:38 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.26s[0m
+2024.02.14 11:09:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 11:09:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 11:09:36 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with a single element should be that element)][0m
+2024.02.14 11:09:36 INFO  Trying to attach to remote debuggee VM localhost:42253 .[0m
+2024.02.14 11:09:36 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 11:09:36 INFO  Closing debug server tcp://0.0.0.0:38907[0m
+2024.02.14 11:09:37 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with a single element should be that element)][0m
+Flag -deprecation set repeatedly
+2024.02.14 11:10:18 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.23s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:11:35 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:12:54 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+Feb 14, 2024 11:13:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3490
+Flag -deprecation set repeatedly
+2024.02.14 11:13:15 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:14:47 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.29s[0m
+2024.02.14 11:15:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 11:15:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 11:15:08 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 11:15:08 INFO  Trying to attach to remote debuggee VM localhost:42711 .[0m
+2024.02.14 11:15:08 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 11:15:08 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 11:15:08 INFO  Closing debug server tcp://0.0.0.0:44369[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:15:27 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+2024.02.14 11:16:32 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 11:16:32 INFO  time: compiled democracy in 0.49s[0m
+2024.02.14 11:16:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 11:16:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 11:16:37 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 11:16:37 INFO  Trying to attach to remote debuggee VM localhost:54283 .[0m
+2024.02.14 11:16:37 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 11:16:38 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 11:16:37 INFO  Closing debug server tcp://0.0.0.0:45869[0m
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 11:21:50 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.35s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:22:48 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.28s[0m
+2024.02.14 11:23:09 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 11:23:09 INFO  time: compiled democracy in 0.35s[0m
+2024.02.14 11:23:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 11:23:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 11:23:17 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with two elements can be any of those two elements)][0m
+2024.02.14 11:23:17 INFO  Trying to attach to remote debuggee VM localhost:45763 .[0m
+2024.02.14 11:23:17 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 11:23:17 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with two elements can be any of those two elements)][0m
+2024.02.14 11:23:17 INFO  Closing debug server tcp://0.0.0.0:39213[0m
+2024.02.14 11:23:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 11:23:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 11:23:28 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 11:23:28 INFO  Trying to attach to remote debuggee VM localhost:35355 .[0m
+2024.02.14 11:23:28 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 11:23:29 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 11:23:28 INFO  Closing debug server tcp://0.0.0.0:42863[0m
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 11:26:52 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:32:38 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.34s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:32:50 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.24s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:32:57 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.31s[0m
+Flag -deprecation set repeatedly
+[31merror[39m: src/main/scala/democracy/onvavoir.worksheet.sc:15:1: 
+value % is not a member of Seq[MdocApp.this.Grade]
+liste%2
+^^^^^^
+2024.02.14 11:33:10 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.22s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:33:30 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.29s[0m
+Feb 14, 2024 11:38:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4167
+Flag -deprecation set repeatedly
+2024.02.14 11:39:40 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.27s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:39:55 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.3s[0m
+2024.02.14 11:40:13 INFO  compiling democracy (1 scala source)[0m
+2024.02.14 11:40:13 INFO  time: compiled democracy in 0.28s[0m
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+Flag -deprecation set repeatedly
+2024.02.14 11:40:15 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.33s[0m
+Flag -deprecation set repeatedly
+2024.02.14 11:40:16 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.25s[0m
+2024.02.14 11:40:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-server.trace.json or /home/btchinianga/.cache/metals/dap-server.trace.json[0m
+2024.02.14 11:40:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/dap-client.trace.json or /home/btchinianga/.cache/metals/dap-client.trace.json[0m
+2024.02.14 11:40:23 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()][0m
+2024.02.14 11:40:23 INFO  Trying to attach to remote debuggee VM localhost:44979 .[0m
+2024.02.14 11:40:23 INFO  Attaching to debuggee VM succeeded.[0m
+2024.02.14 11:40:23 INFO  Closing debug server tcp://0.0.0.0:36653[0m
+2024.02.14 11:40:24 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()][0m
+Flag -deprecation set repeatedly
+2024.02.14 11:42:33 INFO  time: evaluated worksheet 'onvavoir.worksheet.sc' in 0.31s[0m
+2024.02.14 11:50:35 INFO  Shutting down server[0m
+2024.02.14 11:50:35 INFO  shutting down Metals[0m
+2024.02.14 11:50:35 INFO  Shut down connection with build server.[0m
+2024.02.14 11:50:35 INFO  Shut down connection with build server.[0m
+2024.02.14 11:50:35 INFO  Shut down connection with build server.[0m
+2024.02.14 11:50:35 INFO  Exiting server[0m
+2024.06.19 14:15:01 INFO  Started: Metals version 1.3.1+87-dc572a5d-SNAPSHOT in folders '/home/btchinianga/linux_workspace/Formation_scala/democracy' for client Visual Studio Code 1.90.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@4ec0219b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@640dd00f]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4ec0219b]
+2024.06.19 14:15:01 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.06.19 14:15:02 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:15:03 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 14:15:03 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 19, 2024 2:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2024.06.19 14:15:04 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.19 14:15:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:15:04 ERROR /home/btchinianga/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7 release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.10[0m
+2024.06.19 14:15:04 ERROR /home/btchinianga/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7 release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.10[0m
+2024.06.19 14:15:04 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:15:04 INFO  Attempting to connect to the build server...[0m
+2024.06.19 14:15:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:15:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/btchinianga/linux_workspace/Formation_scala/democracy/project/project/.metals/bsp.trace.json or /home/btchinianga/.cache/metals/bsp.trace.json[0m
+2024.06.19 14:15:04 ERROR /home/btchinianga/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7 release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.10[0m
+2024.06.19 14:15:04 ERROR /home/btchinianga/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7 release file missing JAVA_VERSION property - using Bloop's JVM version 17.0.10[0m
+2024.06.19 14:15:04 INFO  time: Connected to build server in 2.22s[0m
+2024.06.19 14:15:04 INFO  Connected to Build server: Bloop v1.5.18[0m
+2024.06.19 14:15:04 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2[0m
+2024.06.19 14:15:06 ERROR Running process '/home/btchinianga/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7/bin/java -version' failed
+java.io.IOException: Cannot run program "/home/btchinianga/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7/bin/java" (in directory "/home/btchinianga/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%252B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz/jdk-11.0.22+7"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:46)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:220)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:211)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:211)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:209)
+	at scala.meta.internal.metals.CompilerConfiguration.$anonfun$enrichWithReleaseOption$3(CompilerConfiguration.scala:338)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.CompilerConfiguration.optBuildTargetJvmVersion$1(CompilerConfiguration.scala:327)
+	at scala.meta.internal.metals.CompilerConfiguration.scala$meta$internal$metals$CompilerConfiguration$$enrichWithReleaseOption(CompilerConfiguration.scala:343)
+	at scala.meta.internal.metals.CompilerConfiguration$ScalaLazyCompiler.newCompiler(CompilerConfiguration.scala:164)
+	at scala.meta.internal.metals.CompilerConfiguration$LazyCompiler.$anonfun$presentationCompilerFuture$2(CompilerConfiguration.scala:106)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:46)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:220)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:211)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:211)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:209)
+	at scala.meta.internal.metals.CompilerConfiguration.$anonfun$enrichWithReleaseOption$3(CompilerConfiguration.scala:338)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.CompilerConfiguration.optBuildTargetJvmVersion$1(CompilerConfiguration.scala:327)
+	at scala.meta.internal.metals.CompilerConfiguration.scala$meta$internal$metals$CompilerConfiguration$$enrichWithReleaseOption(CompilerConfiguration.scala:343)
+	at scala.meta.internal.metals.CompilerConfiguration$ScalaLazyCompiler.newCompiler(CompilerConfiguration.scala:164)
+	at scala.meta.internal.metals.CompilerConfiguration$LazyCompiler.$anonfun$presentationCompilerFuture$2(CompilerConfiguration.scala:106)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.06.19 14:15:11 INFO  time: indexed workspace in 6.35s[0m
+2024.06.19 14:15:11 INFO  compiling democracy (1 scala source)[0m
+2024.06.19 14:15:14 INFO  time: compiled democracy in 3.46s[0m
+2024.06.19 14:15:14 INFO  compiling democracy-test (1 scala source)[0m
+2024.06.19 14:15:16 INFO  time: compiled democracy-test in 1.35s[0m
+2024.06.19 14:15:36 INFO  Shutting down server[0m
+2024.06.19 14:15:36 INFO  shutting down Metals[0m
+2024.06.19 14:15:36 INFO  Shut down connection with build server.[0m
+2024.06.19 14:15:36 INFO  Shut down connection with build server.[0m
+2024.06.19 14:15:36 INFO  Shut down connection with build server.[0m
+2024.06.19 14:15:36 INFO  Exiting server[0m

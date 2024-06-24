@@ -1,0 +1,23 @@
+/*import democracy.Candidate
+import democracy.Grade.median
+import democracy.Grade
+
+@main def TestApp(): Unit = {
+  val candidateRate = Map(
+    (Candidate("Trump"),Seq(Grade.Bad, Grade.Mediocre, Grade.Mediocre, Grade.Inadequate)), 
+    (Candidate("Macron"),Seq(Grade.Bad, Grade.Passable, Grade.Mediocre, Grade.Inadequate)),
+    (Candidate("Poutine"),Seq(Grade.Good, Grade.Excellent, Grade.Passable, Grade.Inadequate)),
+    (Candidate("Poutou"),Seq(Grade.Good, Grade.Excellent, Grade.Passable, Grade.Inadequate)),
+    (Candidate("Lepen"),Seq()))
+  
+  val allMedianGrades = candidateRate.values.filter(l => l.nonEmpty).map(grade => median(grade))
+  val bestmediangrade = candidateRate.values.filter(l => l.nonEmpty).map(grade => median(grade)).maxBy(medianGrade => medianGrade.ordinal)
+  val bestcandidate = (candidateRate.filter(l => l._2.nonEmpty) zip allMedianGrades).filter(medianGrade => medianGrade._2 == bestmediangrade).map(_._1)
+  val bestcandidate2 = (candidateRate.filter(l => l._2.nonEmpty)).filter(medianGrade => median(medianGrade._2) == bestmediangrade)
+  val bestCandidatesminusonemediangrade = bestcandidate.map(grade =>(grade._1, grade._2 diff Seq(bestmediangrade)))
+  println(bestcandidate)
+  println(bestCandidatesminusonemediangrade)
+
+  val uneSeq = Seq(Grade.Bad, Grade.Mediocre, Grade.Mediocre, Grade.Inadequate)
+  
+}

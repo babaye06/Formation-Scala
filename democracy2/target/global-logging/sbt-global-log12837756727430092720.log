@@ -1,0 +1,19 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 6 __b8f874b0-6680-45bf-b2f6-da8d4e365b81, None, None)
+[debug] > Exec(bspScalaTestClasses file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2-build file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2/Compile file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2/Test, Some(__b8f874b0-6680-45bf-b2f6-da8d4e365b81), Some(CommandSource(network-7)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing buildTarget/scalaTestClasses"})
+[debug] Evaluating tasks: bspScalaTestClasses
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] buildTarget/scalaTestClasses is a no-op for build.sbt targets: [BuildTargetIdentifier(file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2-build)]
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"18","parents":[]},"eventTime":1718799163416,"message":"Compiling democracy2","dataKind":"compile-task","data":{"target":{"uri":"file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"18","parents":[]},"eventTime":1718799163424,"message":"Compiled democracy2","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2/Compile"},"errors":0,"warnings":0,"time":8}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"19","parents":[]},"eventTime":1718799163428,"message":"Compiling democracy2-test","dataKind":"compile-task","data":{"target":{"uri":"file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"19","parents":[]},"eventTime":1718799163433,"message":"Compiled democracy2-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/home/btchinianga/linux_workspace/Formation_scala/democracy2/#democracy2/Test"},"errors":0,"warnings":0,"time":5}})
+[success] Total time: 0 s, completed Jun 19, 2024, 2:12:43 PM
+[debug] > Exec(sbtCompleteExec 6, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 6, Some(6), Some(CommandSource(network-7)))
+[debug] unmatched Processing event for requestId Some(6): None
+[debug] unmatched json response for requestId Some(6): {"status":"Done","channelName":"network-7","execId":"6","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)

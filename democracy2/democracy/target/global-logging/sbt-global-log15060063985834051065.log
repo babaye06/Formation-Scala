@@ -1,0 +1,7 @@
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])
+[debug] > Exec(__stopWatch network-1, None, None)
+[debug] > Exec(shell, None, None)
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])
+[warn] Metals requires the semanticdb compiler plugin
+[warn] consider setting 'Global / semanticdbEnabled := true' in your global sbt settings ($HOME/.sbt/1.0)
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])

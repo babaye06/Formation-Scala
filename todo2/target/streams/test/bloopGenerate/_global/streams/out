@@ -1,0 +1,4 @@
+[debug] [todo2-test] Classpath dependencies List()
+[debug] [todo2-test] Dependencies from configurations List(todo2)
+[debug] Bloop wrote the configuration of project 'todo2-test' to '/home/btchinianga/linux_workspace/Formation_scala/todo2/.bloop/todo2-test.json'
+[success] Generated .bloop/todo2-test.json
