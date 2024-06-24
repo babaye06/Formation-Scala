@@ -1,0 +1,4 @@
+[debug] [quickcheck-build] Classpath dependencies List()
+[debug] [quickcheck-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'quickcheck-build' to '/home/btchinianga/linux_workspace/Formation_scala/effective-quickcheck/quickcheck/project/.bloop/quickcheck-build.json'
+[success] Generated .bloop/quickcheck-build.json
