@@ -93,3 +93,50 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6cb0308
 2024.06.24 15:18:33 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/effective-quickcheck/quickcheck/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
 2024.06.24 15:18:37 INFO  compiling quickcheck (2 scala sources)[0m
 2024.06.24 15:18:41 INFO  time: compiled quickcheck in 4.59s[0m
+Jun 24, 2024 3:21:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+2024.06.24 15:25:04 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/effective-quickcheck/quickcheck/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.06.24 15:25:04 WARN  Could not find semantic tokens for: file:///home/btchinianga/linux_workspace/Formation_scala/effective-quickcheck/quickcheck/build.sbt[0m
+2024.06.24 15:25:06 INFO  no build target found for /home/btchinianga/linux_workspace/Formation_scala/effective-quickcheck/quickcheck/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Jun 24, 2024 3:26:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+Jun 24, 2024 3:26:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+Jun 24, 2024 3:29:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 284
+Jun 24, 2024 3:30:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+Jun 24, 2024 3:38:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 594
+2024.06.24 16:33:26 INFO  compiling quickcheck-test (4 scala sources)[0m
+2024.06.24 16:33:28 INFO  time: compiled quickcheck-test in 2.17s[0m
+Jun 24, 2024 4:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 882
+Jun 24, 2024 4:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 940
+2024.06.24 16:38:37 INFO  compiling quickcheck (1 scala source)[0m
+2024.06.24 16:38:37 INFO  time: compiled quickcheck in 0.71s[0m
+Jun 24, 2024 4:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1245
+Jun 24, 2024 4:53:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1373
+Jun 24, 2024 4:54:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1471
+2024.06.24 16:58:36 INFO  compiling quickcheck (1 scala source)[0m
+2024.06.24 16:58:36 INFO  time: compiled quickcheck in 0.61s[0m
+Jun 24, 2024 4:58:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1639
+2024.06.24 17:09:31 INFO  compiling quickcheck (1 scala source)[0m
+2024.06.24 17:09:31 INFO  time: compiled quickcheck in 0.54s[0m
+2024.06.24 17:09:43 INFO  compiling quickcheck (1 scala source)[0m
+2024.06.24 17:09:43 INFO  time: compiled quickcheck in 0.41s[0m
+Jun 24, 2024 5:16:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2273
+Jun 24, 2024 5:16:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2298
+Jun 24, 2024 5:17:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2368
+Jun 24, 2024 5:20:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2470
+Jun 24, 2024 5:20:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2513

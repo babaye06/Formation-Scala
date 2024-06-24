@@ -23,9 +23,9 @@ trait HeapProperties(val heapInterface: HeapInterface):
     "delete minumum of heap of one element should return an empty heap" ->
     forAll { (x: Int) =>
       // create a heap with exactly one element, `x`
-      val heap1: List[Node] = ???
+      val heap1: List[Node] = insert(x, empty)
       // delete the minimal element from it
-      val heap0: List[Node] = ???
+      val heap0: List[Node] = deleteMin(heap1)
       // check that heap0 is empty
       isEmpty(heap0)
     }
@@ -35,9 +35,9 @@ trait HeapProperties(val heapInterface: HeapInterface):
     forAll(generatedHeap.suchThat(heap => !isEmpty(heap))) { (heap: List[Node]) =>
       // find the miniminal element of the heap
       // (you don’t need to handle the case of empty heaps because it has been excluded from the heap generator)
-      val min: Int = ???
+      val min: Int = findMin(heap)
       // insert the minimal element to the heap
-      val updatedHeap: List[Node] = ???
+      val updatedHeap: List[Node] = insert(min, heap)
       // find the minimal element of the updated heap should return the same minimal element
       findMin(updatedHeap) == min
     }
@@ -51,15 +51,15 @@ trait HeapProperties(val heapInterface: HeapInterface):
         true
       else
         // find the minimal element
-        val x1: Int = ???
+        val x1: Int = findMin(heap)
         // delete the minimal element of `heap`
-        val heap2: List[Node] = ???
+        val heap2: List[Node] = deleteMin(heap)
         // find the minimal element in `heap2`
-        val x2: Int = ???
+        val x2: Int = findMin(heap2)
         // check that the deleted element is less than or equal to the
         // minimal element of the remaining heap, and that the remaining
         // heap verifies the same property (by recursively calling `check`)
-        val checked: Boolean = ???
+        val checked: Boolean = (x1 <= x2) & check(heap2)
         checked
     // check arbitrary heaps
     "continually finding and deleting the minimal element of a heap should return a sorted sequence" ->
